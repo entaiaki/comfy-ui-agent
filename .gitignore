@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Generated images & outputs
+generated_outputs/
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Runtime data
+bridge_data/
+bridge.out
+bridge.err
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Environment
+.env
+.env.local

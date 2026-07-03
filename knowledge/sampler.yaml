@@ -1,0 +1,87 @@
+pack: core
+priority: 80
+category: sampler
+entries:
+  - key: steps
+    title: Sampler Steps
+    title_zh: 采样步数
+    aliases: [steps, step, sampling steps, 采样步数, 步数, 图太糊, blurry, sharpness, sharper]
+    targets: [sampler.steps]
+    goals: [sharper, more_detail, less_blurry, quality, faster]
+    capabilities: [sampling_quality, speed_tradeoff]
+    description: Higher steps usually improve convergence and detail until diminishing returns; lower steps improve speed.
+    description_zh: 步数偏低时容易采样不足、细节发虚；提高步数通常能增强稳定性和细节，但会变慢且存在边际收益递减。
+    effects:
+      sharpness: positive
+      detail: positive
+      speed: negative
+      cost: higher_runtime
+    recommendations:
+      - target: sampler.steps
+        action: increase
+        when_goal: sharper
+        value_hint: 28-36
+        risk: low
+      - target: sampler.steps
+        action: decrease
+        when_goal: faster
+        value_hint: 16-24
+        risk: low
+    constraints:
+      - Avoid extreme step increases before checking sampler and prompt quality.
+      - For fast preview, prefer smaller increases or lower resolution first.
+    risk: 0.22
+    cost: 0.45
+    confidence: 0.86
+
+  - key: cfg
+    title: CFG / Guidance Scale
+    title_zh: 提示词引导强度
+    aliases: [cfg, guidance, guidance scale, 引导强度, 提示词跟随, 更听提示词, prompt adherence]
+    targets: [sampler.cfg, sampler.guidance]
+    goals: [more_prompt_adherence, stronger_prompt, less_prompt_drift]
+    capabilities: [prompt_adherence]
+    description: Moderate CFG increases prompt adherence; too high may cause harsh contrast, artifacts, or overcooked images.
+    description_zh: 适度提高 CFG 可以让图更听提示词；过高可能让画面发硬、过曝、噪点和伪影增加。
+    effects:
+      prompt_adherence: positive
+      artifacts: risk_when_high
+      contrast: higher
+    recommendations:
+      - target: sampler.cfg
+        action: slightly_increase
+        when_goal: more_prompt_adherence
+        value_hint: +0.5 to +1.5
+        risk: low
+      - target: sampler.cfg
+        action: slightly_decrease
+        when_goal: overcooked
+        value_hint: -0.5 to -1.5
+        risk: low
+    risk: 0.30
+    cost: 0.12
+    confidence: 0.78
+
+  - key: sampler_name
+    title: Sampler Algorithm
+    title_zh: 采样器算法
+    aliases: [sampler, sampler_name, dpmpp, dpm++ 2m, euler, 采样器, 采样算法]
+    targets: [sampler.sampler_name]
+    goals: [quality, sharper, cleaner, faster]
+    capabilities: [sampling_algorithm]
+    description: Sampler choice changes the speed-quality-artifact tradeoff. Quality-oriented samplers may improve detail but can cost more time.
+    description_zh: 采样器决定速度、质量和伪影的权衡。质量型采样器可能细节更稳，但耗时可能更高。
+    recommendations:
+      - target: sampler.sampler_name
+        action: prefer_quality_sampler
+        when_goal: sharper
+        value_hint: DPM++ 2M / DPM++ 2M SDE when available
+        risk: medium
+      - target: sampler.sampler_name
+        action: prefer_fast_sampler
+        when_goal: faster
+        value_hint: Euler / fast scheduler-compatible sampler
+        risk: medium
+    risk: 0.48
+    cost: 0.35
+    confidence: 0.70

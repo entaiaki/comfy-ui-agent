@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  bridge:
+    build:
+      context: .
+      dockerfile: Dockerfile.bridge
+    ports:
+      - "7861:7861"
+    environment:
+      # ComfyUI runs on host by default; adjust if you dockerize comfyui.
+      - COMFYUI_SERVER=http://host.docker.internal:8186
+    volumes:
+      - ./generated_outputs:/app/generated_outputs
+      - ./bridge_data:/app/bridge_data
+    command: [
+      "python", "local_image_bridge_v03.py",
+      "--host", "0.0.0.0",
+      "--port", "7861",
+      "--comfyui-server", "http://host.docker.internal:8186",
+      "--workflow", "flux_kontext_txt2img_api_workflow.json",
+      "--out-dir", "generated_outputs",
+      "--workers", "2"
+    ]

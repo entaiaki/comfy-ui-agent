@@ -1,0 +1,5909 @@
+{
+  "2": {
+    "inputs": {
+      "images": [
+        "29:977",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "4": {
+    "inputs": {
+      "images": [
+        "29:976",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "5": {
+    "inputs": {
+      "images": [
+        "28:940",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "7": {
+    "inputs": {
+      "images": [
+        "38:1054",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "15": {
+    "inputs": {
+      "image": "$15-0",
+      "block": false,
+      "restore_mask": "if_same_size",
+      "images": [
+        "29:976",
+        0
+      ]
+    },
+    "class_type": "PreviewBridge",
+    "_meta": {
+      "title": "桥接预览图像"
+    }
+  },
+  "16": {
+    "inputs": {
+      "image": "$16-0",
+      "block": false,
+      "restore_mask": "if_same_size",
+      "images": [
+        "37:962",
+        0
+      ]
+    },
+    "class_type": "PreviewBridge",
+    "_meta": {
+      "title": "桥接预览图像"
+    }
+  },
+  "22": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "12:313",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "23": {
+    "inputs": {
+      "images": [
+        "24:187",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "26": {
+    "inputs": {
+      "images": [
+        "28:963",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "39": {
+    "inputs": {
+      "images": [
+        "20:758",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "40": {
+    "inputs": {
+      "images": [
+        "10:340",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "41": {
+    "inputs": {
+      "value": ">1 CHARACTER\njane_doe_(zenless_zone_zero), j4ne d0e\n\n>2 HEAD\ntwo-tone_hair, black_hair, colored_tips, animal_ears, very_long_hair, low_ponytail, hair_intakes\n\n>3 EYEBALLS\ngreen_eyes\n\n>4 TONGUE\n\n>5 FACE\nblunt_bangs, eyelashes, fangs, eyeliner, thick_eyelashes, mascara, makeup, eyeshadow\n\n>6 PORTRAIT_FRONT\nfur_trim, green_jacket, fur-trimmed_jacket, cropped_jacket, necktie, turtleneck\n\n>7 PORTRAIT_BACK\nfur_trim, green_jacket, fur-trimmed_jacket, cropped_jacket\n\n>8 UPPER_BODY_FRONT\nblack_shorts, short_shorts, high-waist_shorts\n\n>9 UPPER_BODY_BACK\nblack_shorts, short_shorts, high-waist_shorts\n\n>10 COWBOY_SHOT_FRONT\ntorn_legwear, black_pantyhose, single_leg_pantyhose, black_thighhighs, single_thighhigh, torn_pantyhose, torn_thighhighs, garter_straps\n\n>11 COWBOY_SHOT_BACK\ntorn_legwear, black_pantyhose, single_leg_pantyhose, black_thighhighs, single_thighhigh, torn_pantyhose, torn_thighhighs, garter_straps\n\n>12 FEET_OUT_OF_FRAME\n\n\n>13 FULL_BODY\ngrey_footwear, high_heel_boots\n\n>14 HANDS\nlong_sleeves, black_gloves, fingerless_gloves, red_nails, nail_polish\n\n>15 TAIL\ntail\n\n>16 BACK WINGS\n\n>17 NEGATIVE\n"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Character Card"
+    }
+  },
+  "42": {
+    "inputs": {
+      "value": ">1 CHARACTER\nHatsune_Miku\n\n>2 HEAD\n(absurldy_long_hair:1.3), aqua_hair, aqua_twintails, hair_ornament\n\n>3 EYEBALLS\n\n>4 TONGUE\n\n>5 FACE\naqua_eyes, collarbone, long_eyelashes, eyebrows, mascara, bangs\n\n>6 PORTRAIT_FRONT\naqua_necktie, black_sleeves, detached_sleeves, grey_shirt, (see-through_sleeves:1.2), sleeveless_shirt\n\n>7 PORTRAIT_BACK\n\n>8 UPPER_BODY_FRONT\nblack_skirt, pleated_skirt\n\n>9 UPPER_BODY_BACK\n\n>10 COWBOY_SHOT_FRONT\nblack_boots, thigh_boots\n\n>11 COWBOY_SHOT_BACK\n\n>12 FEET_OUT_OF_FRAME\n\n>13 FULL_BODY\n\n>14 HANDS\nblack_nails\n\n>15 TAIL\n\n\n>16 WINGS\n\n\n>17 NEGATIVE\n"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Character Card"
+    }
+  },
+  "44": {
+    "inputs": {
+      "control_net_name": "ILXL CN OpenPose - windsingai.safetensors"
+    },
+    "class_type": "ControlNetLoader",
+    "_meta": {
+      "title": "ControlNet加载器"
+    }
+  },
+  "45": {
+    "inputs": {
+      "value": ">1 CHARACTER\n\n>2 HEAD\nshort_hair\n\n>3 EYEBALLS\n\n\n>4 TONGUE\n\n>5 FACE\n\n>6 PORTRAIT_FRONT\nshort_sleeves, white_shirt\n\n>7 PORTRAIT_BACK\n\n>8 UPPER_BODY_FRONT\nbeige_skirt, pleated_skirt\n\n>9 UPPER_BODY_BACK\n\n>10 COWBOY_SHOT_FRONT\n\n>11 COWBOY_SHOT_BACK\n\n>12 FEET_OUT_OF_FRAME\n\n>13 FULL_BODY\n\n>14 HANDS\n\n>15 TAIL\n\n>16 BACK WINGS\n\n>17 NEGATIVE\n"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Character Card"
+    }
+  },
+  "46": {
+    "inputs": {
+      "value": ">1 CHARACTER\n\n>2 HEAD\n\n>3 EYEBALLS\n\n>4 TONGUE\n\n>5 FACE\n\n>6 PORTRAIT_FRONT\n\n>7 PORTRAIT_BACK\n\n>8 UPPER_BODY_FRONT\n\n>9 UPPER_BODY_BACK\n\n>10 COWBOY_SHOT_FRONT\n\n>11 COWBOY_SHOT_BACK\n\n>12 FEET_OUT_OF_FRAME\n\n>13 FULL_BODY\n\n>14 HANDS\n\n>15 TAIL\n\n>16 BACK WINGS\n\n>17 NEGATIVE\n"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Character Card"
+    }
+  },
+  "47": {
+    "inputs": {
+      "filename_prefix": "ImgSender",
+      "link_id": 0,
+      "images": [
+        "27:852",
+        0
+      ]
+    },
+    "class_type": "ImageSender",
+    "_meta": {
+      "title": "图像发送"
+    }
+  },
+  "48": {
+    "inputs": {
+      "image": "ImgSender_temp_zakfy_00001_.png [temp]",
+      "link_id": 0,
+      "save_to_workflow": false,
+      "image_data": "",
+      "trigger_always": false
+    },
+    "class_type": "ImageReceiver",
+    "_meta": {
+      "title": "图像接收"
+    }
+  },
+  "11:80": {
+    "inputs": {
+      "ratio": 0.3,
+      "model": [
+        "11:741",
+        0
+      ]
+    },
+    "class_type": "TomePatchModel",
+    "_meta": {
+      "title": "Tome合并模型Token"
+    }
+  },
+  "11:81": {
+    "inputs": {
+      "stop_at_clip_layer": -2,
+      "clip": [
+        "11:741",
+        1
+      ]
+    },
+    "class_type": "CLIPSetLastLayer",
+    "_meta": {
+      "title": "CLIP设置停止层"
+    }
+  },
+  "11:79": {
+    "inputs": {
+      "vae_a": [
+        "11:741",
+        2
+      ],
+      "vae_b": [
+        "11:77",
+        0
+      ],
+      "boolean": [
+        "11:740",
+        0
+      ]
+    },
+    "class_type": "VAE Input Switch",
+    "_meta": {
+      "title": "VAE切换"
+    }
+  },
+  "11:741": {
+    "inputs": {
+      "ckpt_name": "ILXL [2D] Mistbloom - Rustyvivid.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": "Checkpoint加载器(简易)"
+    }
+  },
+  "11:90": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "11:747",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "11:91": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "11:747",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "11:93": {
+    "inputs": {
+      "model": [
+        "11:747",
+        0
+      ],
+      "clip": [
+        "11:747",
+        1
+      ],
+      "vae": [
+        "11:79",
+        0
+      ],
+      "positive": [
+        "11:90",
+        0
+      ],
+      "negative": [
+        "11:91",
+        0
+      ]
+    },
+    "class_type": "ToBasicPipe",
+    "_meta": {
+      "title": "到基础束"
+    }
+  },
+  "11:740": {
+    "inputs": {
+      "value": false
+    },
+    "class_type": "PrimitiveBoolean",
+    "_meta": {
+      "title": "布尔值"
+    }
+  },
+  "11:77": {
+    "inputs": {
+      "vae_name": "sdxl_vae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "VAE加载器"
+    }
+  },
+  "11:742": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "11:80",
+        0
+      ],
+      "clip": [
+        "11:81",
+        0
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "11:743": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "11:742",
+        0
+      ],
+      "clip": [
+        "11:742",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "11:744": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "11:743",
+        0
+      ],
+      "clip": [
+        "11:743",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "11:745": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "11:744",
+        0
+      ],
+      "clip": [
+        "11:744",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "11:746": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "11:745",
+        0
+      ],
+      "clip": [
+        "11:745",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "11:747": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "11:746",
+        0
+      ],
+      "clip": [
+        "11:746",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "31:981": {
+    "inputs": {
+      "strings": [
+        "31:988",
+        0
+      ],
+      "multiline": "#0 None\n\n#1 Character (booru)\n\n(QUALITY/GENERAL:0)\nblurred, bad shadow, cropped, JPEG artifacts, (low quality:1.4), lowres, (normal quality:1.4), (worst quality:1.4)\n\n(GENERAL ANATOMY:0)\nanatomical nonsense, (bad anatomy:1.4), bad proportions, deformed, disfigured, extra limbs, fat, ugly, liquid body, malformed, malformed limbs, missing limbs, mutated, mutation, uncoordinated body, unnatural body\n\n(TEXT ETC:0)\nerror, ui, extra digit, fewer digits, fused digit, missing digit, bad digit, liquid digit, watermark, username, (signature:1.4), QR code, bar code (text:1.4)\n\n(HAIR:0)\nbad hairs, fused hairs, poorly drawn hairs\n\n(EYES:0)\nbad eyes, extra eyes, fused eyes poorly drawn eyes\n\n(FACE:0)\nbad face, big face, cloned face, fused face, long face, long neck, poorly drawn face\n\n(EARS:0)\nbad ears, extra ears, fused ears, heavy ears, liquid ears, poorly drawn ears, missing ears\n\n(ANIMAL EARS:0)\nbad animal ears, extra animal ears, fused animal ears, heavy animal ears, liquid animal ears, poorly drawn animal ears, missing animal ears\n\n(MOUTH:0)\nbad mouth, big mouth, cracked mouth, fused mouth, poorly drawn mouth, thick lips\n(TONGUE:0)\nbad tongue, black tongue, colorful tongue, liquid tongue\n\n(ARMS:0)\n(bad hands:1.4), extra arms, fused fingers, liquid_fingers, malformed hands, missing arms, missing fingers, missing hands, mutated hands, one hand with more than 5 fingers, poorly drawn hands, too many fingers\n\n(CHEST:0)\nbad breasts, extra breasts, fused breasts, heavy breasts, huge breasts, liquid breasts, missing breasts, poorly drawn breasts\n\n(LEGS:0)\nbad feet, extra foot, extra legs\n\n(SKIN:0)\nskin spots, acnes, skin blemishes\n\n(CLOTHING:0)\nfused cloth, poorly drawn cloth\n\n(MISC:0)\nbad tails, big muscles, chibi, dirty teeth, long neck, too long tongue, yellow teeth\n\n#2 Score\n\n(score_3_up, score_4_up, score_5_up, source_furry, source_pony, source_cartoon:1.1), low_quality, worst quality, blurred, lowres, bad_hands, mutated, signature\n\n#3 Character (booru) - text allowed\n\n(QUALITY/GENERAL:0)\nblurred, bad shadow, cropped, JPEG artifacts, (low quality:1.4), lowres, (normal quality:1.4), (worst quality:1.4)\n\n(GENERAL ANATOMY:0)\nanatomical nonsense, (bad anatomy:1.4), bad proportions, deformed, disfigured, extra limbs, fat, ugly, liquid body, malformed, malformed limbs, missing limbs, mutated, mutation, uncoordinated body, unnatural body\n\n(TEXT ETC:0)\nerror, fused digit, missing digit, bad digit, (signature:1.4), QR code, bar code\n\n(HAIR:0)\nbad hairs, fused hairs, poorly drawn hairs\n\n(EYES:0)\nbad eyes, extra eyes, fused eyes poorly drawn eyes\n\n(FACE:0)\nbad face, big face, cloned face, fused face, long face, long neck, poorly drawn face\n\n(EARS:0)\nbad ears, extra ears, fused ears, heavy ears, liquid ears, poorly drawn ears, missing ears\n\n(ANIMAL EARS:0)\nbad animal ears, extra animal ears, fused animal ears, heavy animal ears, liquid animal ears, poorly drawn animal ears, missing animal ears\n\n(MOUTH:0)\nbad mouth, big mouth, cracked mouth, fused mouth, poorly drawn mouth, thick lips\n(TONGUE:0)\nbad tongue, black tongue, colorful tongue, liquid tongue\n\n(ARMS:0)\n(bad hands:1.4), extra arms, fused fingers, liquid_fingers, malformed hands, missing arms, missing fingers, missing hands, mutated hands, one hand with more than 5 fingers, poorly drawn hands, too many fingers\n\n(CHEST:0)\nbad breasts, extra breasts, fused breasts, heavy breasts, huge breasts, liquid breasts, missing breasts, poorly drawn breasts\n\n(LEGS:0)\nbad feet, extra foot, extra legs\n\n(SKIN:0)\nskin spots, acnes, skin blemishes\n\n(CLOTHING:0)\nfused cloth, poorly drawn cloth\n\n(MISC:0)\nbad tails, big muscles, chibi, dirty teeth, long neck, too long tongue, yellow teeth\n\n#4 Realistic ILXL\n\nblurry background, simple background, blur,film grain,noise,sketch,comic,cartoon,toon,oil painting \\(medium\\),flat color,outline,2.5D,2D,unreal,unity,blender,anime,smooth skin, anime, illustration, animation\n\n#5 Character (booru) +\n\n(QUALITY/GENERAL:0)\nblurred, bad shadow, cropped, JPEG artifacts, (low quality:1.4), lowres, (normal quality:1.4), (worst quality:1.4)\n\n(GENERAL ANATOMY:0)\nanatomical nonsense, (bad anatomy:1.4), bad proportions, deformed, disfigured, extra limbs, fat, ugly, liquid body, malformed, malformed limbs, missing limbs, mutated, mutation, uncoordinated body, unnatural body\n\n(TEXT ETC:0)\nerror, ui, extra digit, fewer digits, fused digit, missing digit, bad digit, liquid digit, watermark, username, (signature:1.4), QR code, bar code (text:1.4)\n\n(HAIR:0)\nbad hairs, fused hairs, poorly drawn hairs\n\n(EYES:0)\nbad eyes, extra eyes, fused eyes poorly drawn eyes\n\n(FACE:0)\nbad face, big face, cloned face, fused face, long face, long neck, poorly drawn face\n\n(EARS:0)\nbad ears, extra ears, fused ears, heavy ears, liquid ears, poorly drawn ears, missing ears\n\n(ANIMAL EARS:0)\nbad animal ears, extra animal ears, fused animal ears, heavy animal ears, liquid animal ears, poorly drawn animal ears, missing animal ears\n\n(MOUTH:0)\nbad mouth, big mouth, cracked mouth, fused mouth, poorly drawn mouth, thick lips\n(TONGUE:0)\nbad tongue, black tongue, colorful tongue, liquid tongue\n\n(ARMS:0)\n(bad hands:1.4), extra arms, fused fingers, liquid_fingers, malformed hands, missing arms, missing fingers, missing hands, mutated hands, one hand with more than 5 fingers, poorly drawn hands, too many fingers\n\n(CHEST:0)\nbad breasts, extra breasts, fused breasts, heavy breasts, huge breasts, liquid breasts, missing breasts, poorly drawn breasts\n\n(LEGS:0)\nbad feet, extra foot, extra legs\n\n(SKIN:0)\nskin spots, acnes, skin blemishes\n\n(CLOTHING:0)\nfused cloth, poorly drawn cloth\n\n(MISC:0)\nbad tails, big muscles, chibi, dirty teeth, long neck, too long tongue, yellow teeth\n\n#6\n\n",
+      "select": [
+        "31:990",
+        0
+      ]
+    },
+    "class_type": "ImpactStringSelector",
+    "_meta": {
+      "title": "字符串选择"
+    }
+  },
+  "31:982": {
+    "inputs": {
+      "strings": [
+        "31:987",
+        0
+      ],
+      "multiline": "#0 None\n\n#1 Character (booru)\n\n8k, 8k wallpaper, absurdres, (best illustration:1.1), (best quality:1.4), (best shadow:1.1), (extremely detailed CG unity 8k wallpaper:1.2), highres, (masterpiece:1.4), trending on artstation, sketch, line art, manga, manga drawing\n\n#2 Score\n\n(source_anime, score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up), BREAK\n\n#3 Character (booru) - text allowed\n\n8k, 8k wallpaper, absurdres, (best illustration:1.1), (best quality:1.4), (best shadow:1.1), (extremely detailed CG unity 8k wallpaper:1.2), highres, (masterpiece:1.4), trending on artstation, sketch, line art, manga, manga drawing, cinematic_shot, subsurface_scattering, antialiasing, HDR, ambient_occlusion, raytraicng, soft_lighting\n\n#4 Realistic ILXL\n\n8k, highres, Shot in low light with a Nikon Z7 II and a NIKKOR Z 50mm f/1.8 lens, scenery, reversal film, (cosplay:1.4), photorealistic\n\n#5 Character (booru) +\n\n8k, 8k wallpaper, absurdres, (best illustration:1.1), (best quality:1.4), (best shadow:1.1), (extremely detailed CG unity 8k wallpaper:1.2), highres, (masterpiece:1.4), trending on artstation, sketch, line art, manga, manga drawing, cinematic_shot, dynamic_pose, subsurface_scattering, antialiasing, HDR, ambient_occlusion, raytraicng, soft_lighting\n\n#6 Character (booru) P only\n\n8k, 8k wallpaper, absurdres, (best illustration:1.1), (best quality:1.4), (best shadow:1.1), (extremely detailed CG unity 8k wallpaper:1.2), highres, (masterpiece:1.4), trending on artstation, sketch, line art, manga, manga drawing",
+      "select": [
+        "31:990",
+        0
+      ]
+    },
+    "class_type": "ImpactStringSelector",
+    "_meta": {
+      "title": "字符串选择"
+    }
+  },
+  "31:983": {
+    "inputs": {
+      "string": [
+        "31:982",
+        0
+      ],
+      "regex_pattern": "^.*\\n*",
+      "replace": "",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "正则表达式替换"
+    }
+  },
+  "31:984": {
+    "inputs": {
+      "value": "Quality Prompt"
+    },
+    "class_type": "PrimitiveString",
+    "_meta": {
+      "title": "zip name"
+    }
+  },
+  "31:985": {
+    "inputs": {
+      "positive": [
+        "31:983",
+        0
+      ],
+      "negative": [
+        "31:986",
+        0
+      ],
+      "name_opt": [
+        "31:984",
+        0
+      ]
+    },
+    "class_type": "ZipPrompt //Inspire",
+    "_meta": {
+      "title": "打包提示词"
+    }
+  },
+  "31:986": {
+    "inputs": {
+      "string": [
+        "31:981",
+        0
+      ],
+      "regex_pattern": "^.*\\n*",
+      "replace": "",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "正则表达式替换"
+    }
+  },
+  "31:987": {
+    "inputs": {
+      "value": "#0\n\n#1 quality (booru)\n\n8k, 8k wallpaper, absurdres, (best illustration:1.1), (best quality:1.4), (best shadow:1.1), (extremely detailed CG unity 8k wallpaper:1.2), highres, (masterpiece:1.4), trending on artstation, sketch, line art, manga, manga drawing\n\n#2 Score (for pony)\n\n(source_anime, score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up), BREAK\n\n#3 Realistic\n\n8k, highres, Shot in low light with a Nikon Z7 II and a NIKKOR Z 50mm f/1.8 lens, scenery, reversal film, (cosplay:1.4), photorealistic, realistic, RAW photo"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Positive List"
+    }
+  },
+  "31:988": {
+    "inputs": {
+      "value": "#0\n\n#1 BIG quality, anatomy, text (booru)\n\n(QUALITY/GENERAL:0)\nblurred, bad shadow, cropped, JPEG artifacts, (low quality:1.4), lowres, (normal quality:1.4), (worst quality:1.4)\n\n(GENERAL ANATOMY:0)\nanatomical nonsense, (bad anatomy:1.4), bad proportions, deformed, disfigured, extra limbs, fat, ugly, liquid body, malformed, malformed limbs, missing limbs, mutated, mutation, uncoordinated body, unnatural body\n\n(TEXT ETC:0)\nerror, font, text font ui, ui, extra digit, fewer digits, fused digit, missing digit, bad digit, liquid digit, watermark, username, (signature:1.4), QR code, bar code\n\n(HAIR:0)\nbad hairs, fused hairs, poorly drawn hairs\n\n(EYES:0)\nbad eyes, extra eyes, fused eyes poorly drawn eyes\n\n(FACE:0)\nbad face, big face, cloned face, fused face, long face, long neck, poorly drawn face\n\n(EARS:0)\nbad ears, extra ears, fused ears, heavy ears, liquid ears, poorly drawn ears, missing ears\n\n(ANIMAL EARS:0)\nbad animal ears, extra animal ears, fused animal ears, heavy animal ears, liquid animal ears, poorly drawn animal ears, missing animal ears\n\n(MOUTH:0)\nbad mouth, big mouth, cracked mouth, fused mouth, poorly drawn mouth, thick lips\n(TONGUE:0)\nbad tongue, black tongue, colorful tongue, liquid tongue\n\n(ARMS:0)\n(bad hands:1.4), extra arms, fused fingers, liquid_fingers, malformed hands, missing arms, missing fingers, missing hands, mutated hands, one hand with more than 5 fingers, poorly drawn hands, too many fingers\n\n(CHEST:0)\nbad breasts, extra breasts, fused breasts, heavy breasts, huge breasts, liquid breasts, missing breasts, poorly drawn breasts\n\n(LEGS:0)\nbad feet, extra foot, extra legs\n\n(SKIN:0)\nskin spots, acnes, skin blemishes\n\n(CLOTHING:0)\nfused cloth, poorly drawn cloth\n\n(MISC:0)\nbad tails, big muscles, chibi, dirty teeth, long neck, too long tongue, yellow teeth\n\n#2 Score (pony)\n\n(score_3_up, score_4_up, score_5_up, source_furry, source_pony, source_cartoon:1.1), (low_quality:1.4), (worst quality:1.4), blurred, lowres, bad_hands, mutated, signature, loli, ugly\n\n#3 Realistic\n\n(QUALITY/GENERAL:0)\nblurred, bad shadow, cropped, JPEG artifacts, (low quality:1.4), lowres, (normal quality:1.4), (worst quality:1.4)\n\n(GENERAL ANATOMY:0)\nanatomical nonsense, (bad anatomy:1.4), bad proportions, deformed, disfigured, extra limbs, fat, ugly, liquid body, malformed, malformed limbs, missing limbs, mutated, mutation, uncoordinated body, unnatural body\n\n(TEXT ETC:0)\nerror, font, text font ui, ui, extra digit, fewer digits, fused digit, missing digit, bad digit, liquid digit, watermark, username, (signature:1.4), QR code, bar code\n\n(HAIR:0)\nbad hairs, fused hairs, poorly drawn hairs\n\n(EYES:0)\nbad eyes, extra eyes, fused eyes poorly drawn eyes\n\n(FACE:0)\nbad face, big face, cloned face, fused face, long face, long neck, poorly drawn face\n\n(EARS:0)\nbad ears, extra ears, fused ears, heavy ears, liquid ears, poorly drawn ears, missing ears\n\n(ANIMAL EARS:0)\nbad animal ears, extra animal ears, fused animal ears, heavy animal ears, liquid animal ears, poorly drawn animal ears, missing animal ears\n\n(MOUTH:0)\nbad mouth, big mouth, cracked mouth, fused mouth, poorly drawn mouth, thick lips\n(TONGUE:0)\nbad tongue, black tongue, colorful tongue, liquid tongue\n\n(ARMS:0)\n(bad hands:1.4), extra arms, fused fingers, liquid_fingers, malformed hands, missing arms, missing fingers, missing hands, mutated hands, one hand with more than 5 fingers, poorly drawn hands, too many fingers\n\n(CHEST:0)\nbad breasts, extra breasts, fused breasts, heavy breasts, huge breasts, liquid breasts, missing breasts, poorly drawn breasts\n\n(LEGS:0)\nbad feet, extra foot, extra legs\n\n(SKIN:0)\nskin spots, acnes, skin blemishes\n\n(CLOTHING:0)\nfused cloth, poorly drawn cloth\n\n(MISC:0)\nbad tails, big muscles, chibi, dirty teeth, long neck, too long tongue, yellow teeth"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Negative List"
+    }
+  },
+  "31:989": {
+    "inputs": {
+      "value": "#0 Nothing\n#1 Quality (booru)\n#2 Score (Pony)\n#3 Realistic"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Preset List"
+    }
+  },
+  "31:990": {
+    "inputs": {
+      "value": 1
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "Select"
+    }
+  },
+  "32:991": {
+    "inputs": {
+      "ratio": 0.3,
+      "model": [
+        "32:994",
+        0
+      ]
+    },
+    "class_type": "TomePatchModel",
+    "_meta": {
+      "title": "Tome合并模型Token"
+    }
+  },
+  "32:992": {
+    "inputs": {
+      "stop_at_clip_layer": -2,
+      "clip": [
+        "32:994",
+        1
+      ]
+    },
+    "class_type": "CLIPSetLastLayer",
+    "_meta": {
+      "title": "CLIP设置停止层"
+    }
+  },
+  "32:993": {
+    "inputs": {
+      "vae_a": [
+        "32:994",
+        2
+      ],
+      "vae_b": [
+        "32:999",
+        0
+      ],
+      "boolean": [
+        "32:998",
+        0
+      ]
+    },
+    "class_type": "VAE Input Switch",
+    "_meta": {
+      "title": "VAE切换"
+    }
+  },
+  "32:994": {
+    "inputs": {
+      "ckpt_name": "ILXL [2D] Mistbloom - Rustyvivid.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": "Checkpoint加载器(简易)"
+    }
+  },
+  "32:995": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "32:1005",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "32:996": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "32:1005",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "32:997": {
+    "inputs": {
+      "model": [
+        "32:1005",
+        0
+      ],
+      "clip": [
+        "32:1005",
+        1
+      ],
+      "vae": [
+        "32:993",
+        0
+      ],
+      "positive": [
+        "32:995",
+        0
+      ],
+      "negative": [
+        "32:996",
+        0
+      ]
+    },
+    "class_type": "ToBasicPipe",
+    "_meta": {
+      "title": "到基础束"
+    }
+  },
+  "32:998": {
+    "inputs": {
+      "value": false
+    },
+    "class_type": "PrimitiveBoolean",
+    "_meta": {
+      "title": "布尔值"
+    }
+  },
+  "32:999": {
+    "inputs": {
+      "vae_name": "sdxl_vae.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "VAE加载器"
+    }
+  },
+  "32:1000": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "32:991",
+        0
+      ],
+      "clip": [
+        "32:992",
+        0
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "32:1001": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "32:1000",
+        0
+      ],
+      "clip": [
+        "32:1000",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "32:1002": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "32:1001",
+        0
+      ],
+      "clip": [
+        "32:1001",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "32:1003": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "32:1002",
+        0
+      ],
+      "clip": [
+        "32:1002",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "32:1004": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "32:1003",
+        0
+      ],
+      "clip": [
+        "32:1003",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "32:1005": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "model": [
+        "32:1004",
+        0
+      ],
+      "clip": [
+        "32:1004",
+        1
+      ]
+    },
+    "class_type": "LoraLoader",
+    "_meta": {
+      "title": "LoRA加载器"
+    }
+  },
+  "6:104": {
+    "inputs": {
+      "strings": [
+        "6:731",
+        0
+      ],
+      "multiline": "#0 None\n\n#1 Character (booru)\n\n(QUALITY/GENERAL:0)\nblurred, bad shadow, cropped, JPEG artifacts, (low quality:1.4), lowres, (normal quality:1.4), (worst quality:1.4)\n\n(GENERAL ANATOMY:0)\nanatomical nonsense, (bad anatomy:1.4), bad proportions, deformed, disfigured, extra limbs, fat, ugly, liquid body, malformed, malformed limbs, missing limbs, mutated, mutation, uncoordinated body, unnatural body\n\n(TEXT ETC:0)\nerror, ui, extra digit, fewer digits, fused digit, missing digit, bad digit, liquid digit, watermark, username, (signature:1.4), QR code, bar code (text:1.4)\n\n(HAIR:0)\nbad hairs, fused hairs, poorly drawn hairs\n\n(EYES:0)\nbad eyes, extra eyes, fused eyes poorly drawn eyes\n\n(FACE:0)\nbad face, big face, cloned face, fused face, long face, long neck, poorly drawn face\n\n(EARS:0)\nbad ears, extra ears, fused ears, heavy ears, liquid ears, poorly drawn ears, missing ears\n\n(ANIMAL EARS:0)\nbad animal ears, extra animal ears, fused animal ears, heavy animal ears, liquid animal ears, poorly drawn animal ears, missing animal ears\n\n(MOUTH:0)\nbad mouth, big mouth, cracked mouth, fused mouth, poorly drawn mouth, thick lips\n(TONGUE:0)\nbad tongue, black tongue, colorful tongue, liquid tongue\n\n(ARMS:0)\n(bad hands:1.4), extra arms, fused fingers, liquid_fingers, malformed hands, missing arms, missing fingers, missing hands, mutated hands, one hand with more than 5 fingers, poorly drawn hands, too many fingers\n\n(CHEST:0)\nbad breasts, extra breasts, fused breasts, heavy breasts, huge breasts, liquid breasts, missing breasts, poorly drawn breasts\n\n(LEGS:0)\nbad feet, extra foot, extra legs\n\n(SKIN:0)\nskin spots, acnes, skin blemishes\n\n(CLOTHING:0)\nfused cloth, poorly drawn cloth\n\n(MISC:0)\nbad tails, big muscles, chibi, dirty teeth, long neck, too long tongue, yellow teeth\n\n#2 Score\n\n(score_3_up, score_4_up, score_5_up, source_furry, source_pony, source_cartoon:1.1), low_quality, worst quality, blurred, lowres, bad_hands, mutated, signature\n\n#3 Character (booru) - text allowed\n\n(QUALITY/GENERAL:0)\nblurred, bad shadow, cropped, JPEG artifacts, (low quality:1.4), lowres, (normal quality:1.4), (worst quality:1.4)\n\n(GENERAL ANATOMY:0)\nanatomical nonsense, (bad anatomy:1.4), bad proportions, deformed, disfigured, extra limbs, fat, ugly, liquid body, malformed, malformed limbs, missing limbs, mutated, mutation, uncoordinated body, unnatural body\n\n(TEXT ETC:0)\nerror, fused digit, missing digit, bad digit, (signature:1.4), QR code, bar code\n\n(HAIR:0)\nbad hairs, fused hairs, poorly drawn hairs\n\n(EYES:0)\nbad eyes, extra eyes, fused eyes poorly drawn eyes\n\n(FACE:0)\nbad face, big face, cloned face, fused face, long face, long neck, poorly drawn face\n\n(EARS:0)\nbad ears, extra ears, fused ears, heavy ears, liquid ears, poorly drawn ears, missing ears\n\n(ANIMAL EARS:0)\nbad animal ears, extra animal ears, fused animal ears, heavy animal ears, liquid animal ears, poorly drawn animal ears, missing animal ears\n\n(MOUTH:0)\nbad mouth, big mouth, cracked mouth, fused mouth, poorly drawn mouth, thick lips\n(TONGUE:0)\nbad tongue, black tongue, colorful tongue, liquid tongue\n\n(ARMS:0)\n(bad hands:1.4), extra arms, fused fingers, liquid_fingers, malformed hands, missing arms, missing fingers, missing hands, mutated hands, one hand with more than 5 fingers, poorly drawn hands, too many fingers\n\n(CHEST:0)\nbad breasts, extra breasts, fused breasts, heavy breasts, huge breasts, liquid breasts, missing breasts, poorly drawn breasts\n\n(LEGS:0)\nbad feet, extra foot, extra legs\n\n(SKIN:0)\nskin spots, acnes, skin blemishes\n\n(CLOTHING:0)\nfused cloth, poorly drawn cloth\n\n(MISC:0)\nbad tails, big muscles, chibi, dirty teeth, long neck, too long tongue, yellow teeth\n\n#4 Realistic ILXL\n\nblurry background, simple background, blur,film grain,noise,sketch,comic,cartoon,toon,oil painting \\(medium\\),flat color,outline,2.5D,2D,unreal,unity,blender,anime,smooth skin, anime, illustration, animation\n\n#5 Character (booru) +\n\n(QUALITY/GENERAL:0)\nblurred, bad shadow, cropped, JPEG artifacts, (low quality:1.4), lowres, (normal quality:1.4), (worst quality:1.4)\n\n(GENERAL ANATOMY:0)\nanatomical nonsense, (bad anatomy:1.4), bad proportions, deformed, disfigured, extra limbs, fat, ugly, liquid body, malformed, malformed limbs, missing limbs, mutated, mutation, uncoordinated body, unnatural body\n\n(TEXT ETC:0)\nerror, ui, extra digit, fewer digits, fused digit, missing digit, bad digit, liquid digit, watermark, username, (signature:1.4), QR code, bar code (text:1.4)\n\n(HAIR:0)\nbad hairs, fused hairs, poorly drawn hairs\n\n(EYES:0)\nbad eyes, extra eyes, fused eyes poorly drawn eyes\n\n(FACE:0)\nbad face, big face, cloned face, fused face, long face, long neck, poorly drawn face\n\n(EARS:0)\nbad ears, extra ears, fused ears, heavy ears, liquid ears, poorly drawn ears, missing ears\n\n(ANIMAL EARS:0)\nbad animal ears, extra animal ears, fused animal ears, heavy animal ears, liquid animal ears, poorly drawn animal ears, missing animal ears\n\n(MOUTH:0)\nbad mouth, big mouth, cracked mouth, fused mouth, poorly drawn mouth, thick lips\n(TONGUE:0)\nbad tongue, black tongue, colorful tongue, liquid tongue\n\n(ARMS:0)\n(bad hands:1.4), extra arms, fused fingers, liquid_fingers, malformed hands, missing arms, missing fingers, missing hands, mutated hands, one hand with more than 5 fingers, poorly drawn hands, too many fingers\n\n(CHEST:0)\nbad breasts, extra breasts, fused breasts, heavy breasts, huge breasts, liquid breasts, missing breasts, poorly drawn breasts\n\n(LEGS:0)\nbad feet, extra foot, extra legs\n\n(SKIN:0)\nskin spots, acnes, skin blemishes\n\n(CLOTHING:0)\nfused cloth, poorly drawn cloth\n\n(MISC:0)\nbad tails, big muscles, chibi, dirty teeth, long neck, too long tongue, yellow teeth\n\n#6\n\n",
+      "select": [
+        "6:728",
+        0
+      ]
+    },
+    "class_type": "ImpactStringSelector",
+    "_meta": {
+      "title": "字符串选择"
+    }
+  },
+  "6:103": {
+    "inputs": {
+      "strings": [
+        "6:732",
+        0
+      ],
+      "multiline": "#0 None\n\n#1 Character (booru)\n\n8k, 8k wallpaper, absurdres, (best illustration:1.1), (best quality:1.4), (best shadow:1.1), (extremely detailed CG unity 8k wallpaper:1.2), highres, (masterpiece:1.4), trending on artstation, sketch, line art, manga, manga drawing\n\n#2 Score\n\n(source_anime, score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up), BREAK\n\n#3 Character (booru) - text allowed\n\n8k, 8k wallpaper, absurdres, (best illustration:1.1), (best quality:1.4), (best shadow:1.1), (extremely detailed CG unity 8k wallpaper:1.2), highres, (masterpiece:1.4), trending on artstation, sketch, line art, manga, manga drawing, cinematic_shot, subsurface_scattering, antialiasing, HDR, ambient_occlusion, raytraicng, soft_lighting\n\n#4 Realistic ILXL\n\n8k, highres, Shot in low light with a Nikon Z7 II and a NIKKOR Z 50mm f/1.8 lens, scenery, reversal film, (cosplay:1.4), photorealistic\n\n#5 Character (booru) +\n\n8k, 8k wallpaper, absurdres, (best illustration:1.1), (best quality:1.4), (best shadow:1.1), (extremely detailed CG unity 8k wallpaper:1.2), highres, (masterpiece:1.4), trending on artstation, sketch, line art, manga, manga drawing, cinematic_shot, dynamic_pose, subsurface_scattering, antialiasing, HDR, ambient_occlusion, raytraicng, soft_lighting\n\n#6 Character (booru) P only\n\n8k, 8k wallpaper, absurdres, (best illustration:1.1), (best quality:1.4), (best shadow:1.1), (extremely detailed CG unity 8k wallpaper:1.2), highres, (masterpiece:1.4), trending on artstation, sketch, line art, manga, manga drawing",
+      "select": [
+        "6:728",
+        0
+      ]
+    },
+    "class_type": "ImpactStringSelector",
+    "_meta": {
+      "title": "字符串选择"
+    }
+  },
+  "6:729": {
+    "inputs": {
+      "string": [
+        "6:103",
+        0
+      ],
+      "regex_pattern": "^.*\\n*",
+      "replace": "",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "正则表达式替换"
+    }
+  },
+  "6:117": {
+    "inputs": {
+      "value": "Quality Prompt"
+    },
+    "class_type": "PrimitiveString",
+    "_meta": {
+      "title": "zip name"
+    }
+  },
+  "6:107": {
+    "inputs": {
+      "positive": [
+        "6:729",
+        0
+      ],
+      "negative": [
+        "6:730",
+        0
+      ],
+      "name_opt": [
+        "6:117",
+        0
+      ]
+    },
+    "class_type": "ZipPrompt //Inspire",
+    "_meta": {
+      "title": "打包提示词"
+    }
+  },
+  "6:730": {
+    "inputs": {
+      "string": [
+        "6:104",
+        0
+      ],
+      "regex_pattern": "^.*\\n*",
+      "replace": "",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "正则表达式替换"
+    }
+  },
+  "6:732": {
+    "inputs": {
+      "value": "#0\n\n#1 quality (booru)\n\n8k, 8k wallpaper, absurdres, (best illustration:1.1), (best quality:1.4), (best shadow:1.1), (extremely detailed CG unity 8k wallpaper:1.2), highres, (masterpiece:1.4), trending on artstation, sketch, line art, manga, manga drawing\n\n#2 Score (for pony)\n\n(source_anime, score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up), BREAK\n\n#3 Realistic\n\n8k, highres, Shot in low light with a Nikon Z7 II and a NIKKOR Z 50mm f/1.8 lens, scenery, reversal film, (cosplay:1.4), photorealistic, realistic, RAW photo"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Positive List"
+    }
+  },
+  "6:731": {
+    "inputs": {
+      "value": "#0\n\n#1 BIG quality, anatomy, text (booru)\n\n(QUALITY/GENERAL:0)\nblurred, bad shadow, cropped, JPEG artifacts, (low quality:1.4), lowres, (normal quality:1.4), (worst quality:1.4)\n\n(GENERAL ANATOMY:0)\nanatomical nonsense, (bad anatomy:1.4), bad proportions, deformed, disfigured, extra limbs, fat, ugly, liquid body, malformed, malformed limbs, missing limbs, mutated, mutation, uncoordinated body, unnatural body\n\n(TEXT ETC:0)\nerror, font, text font ui, ui, extra digit, fewer digits, fused digit, missing digit, bad digit, liquid digit, watermark, username, (signature:1.4), QR code, bar code\n\n(HAIR:0)\nbad hairs, fused hairs, poorly drawn hairs\n\n(EYES:0)\nbad eyes, extra eyes, fused eyes poorly drawn eyes\n\n(FACE:0)\nbad face, big face, cloned face, fused face, long face, long neck, poorly drawn face\n\n(EARS:0)\nbad ears, extra ears, fused ears, heavy ears, liquid ears, poorly drawn ears, missing ears\n\n(ANIMAL EARS:0)\nbad animal ears, extra animal ears, fused animal ears, heavy animal ears, liquid animal ears, poorly drawn animal ears, missing animal ears\n\n(MOUTH:0)\nbad mouth, big mouth, cracked mouth, fused mouth, poorly drawn mouth, thick lips\n(TONGUE:0)\nbad tongue, black tongue, colorful tongue, liquid tongue\n\n(ARMS:0)\n(bad hands:1.4), extra arms, fused fingers, liquid_fingers, malformed hands, missing arms, missing fingers, missing hands, mutated hands, one hand with more than 5 fingers, poorly drawn hands, too many fingers\n\n(CHEST:0)\nbad breasts, extra breasts, fused breasts, heavy breasts, huge breasts, liquid breasts, missing breasts, poorly drawn breasts\n\n(LEGS:0)\nbad feet, extra foot, extra legs\n\n(SKIN:0)\nskin spots, acnes, skin blemishes\n\n(CLOTHING:0)\nfused cloth, poorly drawn cloth\n\n(MISC:0)\nbad tails, big muscles, chibi, dirty teeth, long neck, too long tongue, yellow teeth\n\n#2 Score (pony)\n\n(score_3_up, score_4_up, score_5_up, source_furry, source_pony, source_cartoon:1.1), (low_quality:1.4), (worst quality:1.4), blurred, lowres, bad_hands, mutated, signature, loli, ugly\n\n#3 Realistic\n\n(QUALITY/GENERAL:0)\nblurred, bad shadow, cropped, JPEG artifacts, (low quality:1.4), lowres, (normal quality:1.4), (worst quality:1.4)\n\n(GENERAL ANATOMY:0)\nanatomical nonsense, (bad anatomy:1.4), bad proportions, deformed, disfigured, extra limbs, fat, ugly, liquid body, malformed, malformed limbs, missing limbs, mutated, mutation, uncoordinated body, unnatural body\n\n(TEXT ETC:0)\nerror, font, text font ui, ui, extra digit, fewer digits, fused digit, missing digit, bad digit, liquid digit, watermark, username, (signature:1.4), QR code, bar code\n\n(HAIR:0)\nbad hairs, fused hairs, poorly drawn hairs\n\n(EYES:0)\nbad eyes, extra eyes, fused eyes poorly drawn eyes\n\n(FACE:0)\nbad face, big face, cloned face, fused face, long face, long neck, poorly drawn face\n\n(EARS:0)\nbad ears, extra ears, fused ears, heavy ears, liquid ears, poorly drawn ears, missing ears\n\n(ANIMAL EARS:0)\nbad animal ears, extra animal ears, fused animal ears, heavy animal ears, liquid animal ears, poorly drawn animal ears, missing animal ears\n\n(MOUTH:0)\nbad mouth, big mouth, cracked mouth, fused mouth, poorly drawn mouth, thick lips\n(TONGUE:0)\nbad tongue, black tongue, colorful tongue, liquid tongue\n\n(ARMS:0)\n(bad hands:1.4), extra arms, fused fingers, liquid_fingers, malformed hands, missing arms, missing fingers, missing hands, mutated hands, one hand with more than 5 fingers, poorly drawn hands, too many fingers\n\n(CHEST:0)\nbad breasts, extra breasts, fused breasts, heavy breasts, huge breasts, liquid breasts, missing breasts, poorly drawn breasts\n\n(LEGS:0)\nbad feet, extra foot, extra legs\n\n(SKIN:0)\nskin spots, acnes, skin blemishes\n\n(CLOTHING:0)\nfused cloth, poorly drawn cloth\n\n(MISC:0)\nbad tails, big muscles, chibi, dirty teeth, long neck, too long tongue, yellow teeth"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Negative List"
+    }
+  },
+  "6:733": {
+    "inputs": {
+      "value": "#0 Nothing\n#1 Quality (booru)\n#2 Score (Pony)\n#3 Realistic"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Preset List"
+    }
+  },
+  "6:728": {
+    "inputs": {
+      "value": 3
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "Select"
+    }
+  },
+  "49:62": {
+    "inputs": {
+      "expression": "a*6+b%5",
+      "a": [
+        "49:95",
+        0
+      ],
+      "b": [
+        "49:94",
+        0
+      ],
+      "c": [
+        "49:94",
+        0
+      ]
+    },
+    "class_type": "MathExpression|pysssss",
+    "_meta": {
+      "title": "数学表达式"
+    }
+  },
+  "49:64": {
+    "inputs": {
+      "strings": [
+        "49:1112",
+        0
+      ],
+      "multiline": false,
+      "select": [
+        "49:62",
+        0
+      ]
+    },
+    "class_type": "ImpactStringSelector",
+    "_meta": {
+      "title": "字符串选择"
+    }
+  },
+  "49:120": {
+    "inputs": {
+      "value": "SIZE_ZIP"
+    },
+    "class_type": "PrimitiveString",
+    "_meta": {
+      "title": "zip name"
+    }
+  },
+  "49:61": {
+    "inputs": {
+      "value": false
+    },
+    "class_type": "PrimitiveBoolean",
+    "_meta": {
+      "title": "Landscape"
+    }
+  },
+  "49:95": {
+    "inputs": {
+      "value": 1
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "Size Set"
+    }
+  },
+  "49:94": {
+    "inputs": {
+      "value": 2
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "Aspect Ratio Index"
+    }
+  },
+  "49:1112": {
+    "inputs": {
+      "value": "1280\n1080\n960\n832\n768\n\n1536\n1344\n1216\n1152\n1024\n\n2304\n2016\n1824\n1728\n1536\n\n3072\n2688\n2432\n2304\n2048"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "long res"
+    }
+  },
+  "49:1113": {
+    "inputs": {
+      "value": "512\n576\n640\n704\n768\n\n640\n768\n832\n896\n1024\n\n960\n1152\n1248\n1344\n1536\n\n1280\n1536\n1664\n1792\n2048"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "short res"
+    }
+  },
+  "49:63": {
+    "inputs": {
+      "strings": [
+        "49:1113",
+        0
+      ],
+      "multiline": false,
+      "select": [
+        "49:62",
+        0
+      ]
+    },
+    "class_type": "ImpactStringSelector",
+    "_meta": {
+      "title": "字符串选择"
+    }
+  },
+  "49:1114": {
+    "inputs": {
+      "value": true
+    },
+    "class_type": "PrimitiveBoolean",
+    "_meta": {
+      "title": "Custom Size"
+    }
+  },
+  "49:737": {
+    "inputs": {
+      "value": [
+        "49:735",
+        0
+      ]
+    },
+    "class_type": "ImpactConvertDataType",
+    "_meta": {
+      "title": "ImpactConvertDataType"
+    }
+  },
+  "49:738": {
+    "inputs": {
+      "value": [
+        "49:736",
+        0
+      ]
+    },
+    "class_type": "ImpactConvertDataType",
+    "_meta": {
+      "title": "ImpactConvertDataType"
+    }
+  },
+  "49:66": {
+    "inputs": {
+      "text_a": [
+        "49:64",
+        0
+      ],
+      "text_b": [
+        "49:63",
+        0
+      ],
+      "boolean": [
+        "49:61",
+        0
+      ]
+    },
+    "class_type": "Text Input Switch",
+    "_meta": {
+      "title": "文本切换"
+    }
+  },
+  "49:71": {
+    "inputs": {
+      "width": [
+        "49:67",
+        2
+      ],
+      "height": [
+        "49:70",
+        2
+      ],
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "空Latent"
+    }
+  },
+  "49:70": {
+    "inputs": {
+      "value": [
+        "49:1116",
+        0
+      ]
+    },
+    "class_type": "ImpactConvertDataType",
+    "_meta": {
+      "title": "ImpactConvertDataType"
+    }
+  },
+  "49:67": {
+    "inputs": {
+      "value": [
+        "49:1115",
+        0
+      ]
+    },
+    "class_type": "ImpactConvertDataType",
+    "_meta": {
+      "title": "ImpactConvertDataType"
+    }
+  },
+  "49:68": {
+    "inputs": {
+      "positive": [
+        "49:1115",
+        0
+      ],
+      "negative": [
+        "49:1116",
+        0
+      ],
+      "name_opt": [
+        "49:120",
+        0
+      ]
+    },
+    "class_type": "ZipPrompt //Inspire",
+    "_meta": {
+      "title": "打包提示词"
+    }
+  },
+  "49:65": {
+    "inputs": {
+      "text_a": [
+        "49:63",
+        0
+      ],
+      "text_b": [
+        "49:64",
+        0
+      ],
+      "boolean": [
+        "49:61",
+        0
+      ]
+    },
+    "class_type": "Text Input Switch",
+    "_meta": {
+      "title": "文本切换"
+    }
+  },
+  "49:734": {
+    "inputs": {
+      "string_a": [
+        "49:1115",
+        0
+      ],
+      "string_b": [
+        "49:1116",
+        0
+      ],
+      "delimiter": ""
+    },
+    "class_type": "StringConcatenate",
+    "_meta": {
+      "title": "字符串连锁"
+    }
+  },
+  "49:1115": {
+    "inputs": {
+      "text_a": [
+        "49:737",
+        0
+      ],
+      "text_b": [
+        "49:66",
+        0
+      ],
+      "boolean": [
+        "49:1114",
+        0
+      ]
+    },
+    "class_type": "Text Input Switch",
+    "_meta": {
+      "title": "文本切换"
+    }
+  },
+  "49:1116": {
+    "inputs": {
+      "text_a": [
+        "49:738",
+        0
+      ],
+      "text_b": [
+        "49:65",
+        0
+      ],
+      "boolean": [
+        "49:1114",
+        0
+      ]
+    },
+    "class_type": "Text Input Switch",
+    "_meta": {
+      "title": "文本切换"
+    }
+  },
+  "49:736": {
+    "inputs": {
+      "value": 1024
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "cusotm_height"
+    }
+  },
+  "49:735": {
+    "inputs": {
+      "value": 1024
+    },
+    "class_type": "PrimitiveInt",
+    "_meta": {
+      "title": "custom_width"
+    }
+  },
+  "17:669": {
+    "inputs": {
+      "source": [
+        "17:668",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:671": {
+    "inputs": {
+      "source": [
+        "17:662",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:658": {
+    "inputs": {
+      "string": [
+        "17:668",
+        0
+      ],
+      "regex_pattern": "(([^\\w-]|^)(wide_shot|full_body|FULL_BODY|feet_out_of_frame|FEET_OUT_OF_FRAME|cowboy_shot|COWBOY_SHOT|upper_body|UPPER_BODY|portrait|PORTRAIT|face|FACE|legs|from_behind|facing_away|closed_eyes)(?=[^\\w-]|$)|(\\w*(hands?|tails?|wings?)\\w*))",
+      "mode": "All Matches",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "group_index": 1
+    },
+    "class_type": "RegexExtract",
+    "_meta": {
+      "title": "getTriggerWords"
+    }
+  },
+  "17:670": {
+    "inputs": {
+      "source": [
+        "17:658",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:673": {
+    "inputs": {
+      "source": [
+        "17:672",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:662": {
+    "inputs": {
+      "string": [
+        "17:658",
+        0
+      ],
+      "regex_pattern": "\\s*\\n\\s*",
+      "replace": ",",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "toSingleLine"
+    }
+  },
+  "17:668": {
+    "inputs": {
+      "string": [
+        "17:721",
+        0
+      ],
+      "regex_pattern": "(?<!,)( )",
+      "replace": "_",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "whitespaceToUnderscore"
+    }
+  },
+  "17:672": {
+    "inputs": {
+      "string_a": [
+        "17:662",
+        0
+      ],
+      "string_b": "\\1",
+      "delimiter": ""
+    },
+    "class_type": "StringConcatenate",
+    "_meta": {
+      "title": "字符串连锁"
+    }
+  },
+  "17:678": {
+    "inputs": {
+      "source": [
+        "17:677",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:677": {
+    "inputs": {
+      "string": [
+        "17:675",
+        0
+      ],
+      "regex_pattern": "((?!.*(facing_away|closed_eyes))(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|face|FACE).*))",
+      "replace": "\\1\\\\3",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "EYEBALLS"
+    }
+  },
+  "17:692": {
+    "inputs": {
+      "source": [
+        "17:679",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:675": {
+    "inputs": {
+      "string": [
+        "17:672",
+        0
+      ],
+      "regex_pattern": "(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|face|FACE).*)",
+      "replace": "\\1\\\\2",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "HEAD"
+    }
+  },
+  "17:676": {
+    "inputs": {
+      "source": [
+        "17:675",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:693": {
+    "inputs": {
+      "source": [
+        "17:680",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:694": {
+    "inputs": {
+      "source": [
+        "17:681",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:695": {
+    "inputs": {
+      "source": [
+        "17:682",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:696": {
+    "inputs": {
+      "source": [
+        "17:683",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:697": {
+    "inputs": {
+      "source": [
+        "17:684",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:698": {
+    "inputs": {
+      "source": [
+        "17:685",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:699": {
+    "inputs": {
+      "source": [
+        "17:686",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:700": {
+    "inputs": {
+      "source": [
+        "17:687",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:701": {
+    "inputs": {
+      "source": [
+        "17:688",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:702": {
+    "inputs": {
+      "source": [
+        "17:689",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:703": {
+    "inputs": {
+      "source": [
+        "17:690",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:704": {
+    "inputs": {
+      "source": [
+        "17:691",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:680": {
+    "inputs": {
+      "string": [
+        "17:679",
+        0
+      ],
+      "regex_pattern": "(?!.*facing_away)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|face|FACE).*)",
+      "replace": "\\1\\\\5",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "FACE"
+    }
+  },
+  "17:681": {
+    "inputs": {
+      "string": [
+        "17:680",
+        0
+      ],
+      "regex_pattern": "(?!.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|PORTRAIT).*)",
+      "replace": "\\1\\\\6",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "PORTRAIT_FRONT"
+    }
+  },
+  "17:682": {
+    "inputs": {
+      "string": [
+        "17:681",
+        0
+      ],
+      "regex_pattern": "(?=.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|PORTRAIT).*)",
+      "replace": "\\1\\\\7",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "PORTRAIT_BACK"
+    }
+  },
+  "17:683": {
+    "inputs": {
+      "string": [
+        "17:682",
+        0
+      ],
+      "regex_pattern": "(?!.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|UPPER_BODY).*)",
+      "replace": "\\1\\\\8",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "UPPER_BODY_FRONT"
+    }
+  },
+  "17:686": {
+    "inputs": {
+      "string": [
+        "17:685",
+        0
+      ],
+      "regex_pattern": "(?=.*frombehind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|COWBOY_SHOT).*)",
+      "replace": "\\1\\\\11",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "COWBOW_SHOT_BACK"
+    }
+  },
+  "17:687": {
+    "inputs": {
+      "string": [
+        "17:686",
+        0
+      ],
+      "regex_pattern": "(.*(wide_shot|full_body|feet_out_of_frame|FEET_OUT_OF_FRAME|legs).*)",
+      "replace": "\\1\\\\12",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "FEET_OUT_OF_FRAME"
+    }
+  },
+  "17:688": {
+    "inputs": {
+      "string": [
+        "17:687",
+        0
+      ],
+      "regex_pattern": "(.*(wide_shot|full_body|FULL_BODY|legs|feet).*)",
+      "replace": "\\1\\\\13",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "FULL_BODY"
+    }
+  },
+  "17:689": {
+    "inputs": {
+      "string": [
+        "17:688",
+        0
+      ],
+      "regex_pattern": "(.*[^a-zA-Z]((?<![^a-zA-Z]pov_)hands?)[^a-zA-Z].*)",
+      "replace": "\\1\\\\14",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "HANDS"
+    }
+  },
+  "17:690": {
+    "inputs": {
+      "string": [
+        "17:689",
+        0
+      ],
+      "regex_pattern": "((((?=.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body))|[^a-zA-Z](tails?)[^a-zA-Z]).*))",
+      "replace": "\\1\\\\15",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "TAIL"
+    }
+  },
+  "17:691": {
+    "inputs": {
+      "string": [
+        "17:690",
+        0
+      ],
+      "regex_pattern": "((((?=.*frombehind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body))|[^a-zA-Z](wings?)[^a-zA-Z]).*))",
+      "replace": "\\1\\\\16",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "WINGS"
+    }
+  },
+  "17:679": {
+    "inputs": {
+      "string": [
+        "17:677",
+        0
+      ],
+      "regex_pattern": "/(.*[^a-zA-Z](tongue|licking)[^a-zA-Z].*)/",
+      "replace": "\\1\\\\4",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "TONGUE"
+    }
+  },
+  "17:684": {
+    "inputs": {
+      "string": [
+        "17:683",
+        0
+      ],
+      "regex_pattern": "(?=.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|UPPER_BODY).*)",
+      "replace": "\\1\\\\9",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "UPPER_BODY_BACK"
+    }
+  },
+  "17:685": {
+    "inputs": {
+      "string": [
+        "17:684",
+        0
+      ],
+      "regex_pattern": "(?!.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|COWBOY_SHOT).*)",
+      "replace": "\\1\\\\10",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "COWBOW_SHOT_FRONT"
+    }
+  },
+  "17:706": {
+    "inputs": {
+      "source": [
+        "17:705",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:705": {
+    "inputs": {
+      "string": [
+        "17:691",
+        0
+      ],
+      "regex_pattern": "([^\\\\]*)(\\\\\\d+)([^\\\\]*)",
+      "replace": "\\2",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "getGroups"
+    }
+  },
+  "17:708": {
+    "inputs": {
+      "source": [
+        "17:707",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:259": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveString",
+    "_meta": {
+      "title": "Dummy String"
+    }
+  },
+  "17:711": {
+    "inputs": {
+      "source": [
+        "17:710",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "17:707": {
+    "inputs": {
+      "string": [
+        "45",
+        0
+      ],
+      "regex_pattern": "^>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n?([^>]*)?",
+      "replace": [
+        "17:705",
+        0
+      ],
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "parseCharacterCard"
+    }
+  },
+  "17:710": {
+    "inputs": {
+      "string": [
+        "45",
+        0
+      ],
+      "regex_pattern": ">.*\\n([^>]*)$",
+      "mode": "First Group",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "group_index": 1
+    },
+    "class_type": "RegexExtract",
+    "_meta": {
+      "title": "NEGATIVE"
+    }
+  },
+  "17:712": {
+    "inputs": {
+      "source": [
+        "17:255",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "Preview Positive Final"
+    }
+  },
+  "17:713": {
+    "inputs": {
+      "source": [
+        "17:257",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "Preview Negative Final"
+    }
+  },
+  "17:261": {
+    "inputs": {
+      "basic_pipe": [
+        "17:260",
+        0
+      ],
+      "positive": [
+        "17:262",
+        0
+      ],
+      "negative": [
+        "17:263",
+        0
+      ]
+    },
+    "class_type": "EditBasicPipe",
+    "_meta": {
+      "title": "编辑基础束"
+    }
+  },
+  "17:260": {
+    "inputs": {
+      "basic_pipe": [
+        "11:93",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "17:256": {
+    "inputs": {
+      "zipped_prompt": [
+        "6:107",
+        0
+      ]
+    },
+    "class_type": "UnzipPrompt //Inspire",
+    "_meta": {
+      "title": "解包提示词"
+    }
+  },
+  "17:255": {
+    "inputs": {
+      "delimiter": "\\n",
+      "clean_whitespace": "false",
+      "text_a": [
+        "17:721",
+        0
+      ],
+      "text_b": [
+        "17:707",
+        0
+      ],
+      "text_c": [
+        "17:256",
+        0
+      ],
+      "text_d": [
+        "17:259",
+        0
+      ]
+    },
+    "class_type": "Text Concatenate",
+    "_meta": {
+      "title": "文本连锁"
+    }
+  },
+  "17:257": {
+    "inputs": {
+      "delimiter": "\\n",
+      "clean_whitespace": "false",
+      "text_a": [
+        "17:722",
+        0
+      ],
+      "text_b": [
+        "17:710",
+        0
+      ],
+      "text_c": [
+        "17:256",
+        1
+      ],
+      "text_d": [
+        "17:259",
+        0
+      ]
+    },
+    "class_type": "Text Concatenate",
+    "_meta": {
+      "title": "文本连锁"
+    }
+  },
+  "17:722": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Negative Prompt"
+    }
+  },
+  "17:721": {
+    "inputs": {
+      "value": "2girls, sleeping, closed_eyes, on_back, from_above, on_bed, cowboy_shot, messy_sleeper, hug_from_behind"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Positive Prompt"
+    }
+  },
+  "17:262": {
+    "inputs": {
+      "text": [
+        "17:255",
+        0
+      ],
+      "clip": [
+        "17:260",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "17:263": {
+    "inputs": {
+      "text": [
+        "17:257",
+        0
+      ],
+      "clip": [
+        "17:260",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "29:968": {
+    "inputs": {
+      "mask": [
+        "29:980",
+        1
+      ]
+    },
+    "class_type": "MaskToImage",
+    "_meta": {
+      "title": "遮罩到图像"
+    }
+  },
+  "29:969": {
+    "inputs": {
+      "detect_hand": "disable",
+      "detect_body": "enable",
+      "detect_face": "disable",
+      "resolution": [
+        "29:971",
+        0
+      ],
+      "scale_stick_for_xinsr_cn": "disable",
+      "image": [
+        "48",
+        0
+      ]
+    },
+    "class_type": "OpenposePreprocessor",
+    "_meta": {
+      "title": "Openpose姿态预处理器"
+    }
+  },
+  "29:970": {
+    "inputs": {
+      "width": [
+        "29:975",
+        0
+      ],
+      "height": [
+        "29:975",
+        1
+      ],
+      "batch_size": 1,
+      "color": 0
+    },
+    "class_type": "EmptyImage",
+    "_meta": {
+      "title": "空图像"
+    }
+  },
+  "29:971": {
+    "inputs": {
+      "expression": "iif(a<b,a,b)",
+      "a": [
+        "29:975",
+        0
+      ],
+      "b": [
+        "29:975",
+        1
+      ]
+    },
+    "class_type": "MathExpression|pysssss",
+    "_meta": {
+      "title": "数学表达式"
+    }
+  },
+  "29:972": {
+    "inputs": {
+      "mode": "background",
+      "threshold": 2,
+      "threshold_tolerance": 4,
+      "images": [
+        "29:969",
+        0
+      ]
+    },
+    "class_type": "Image Remove Background (Alpha)",
+    "_meta": {
+      "title": "移除背景(透明)"
+    }
+  },
+  "29:973": {
+    "inputs": {
+      "value": [
+        "29:975",
+        0
+      ]
+    },
+    "class_type": "ImpactConvertDataType",
+    "_meta": {
+      "title": "ImpactConvertDataType"
+    }
+  },
+  "29:974": {
+    "inputs": {
+      "value": [
+        "29:975",
+        1
+      ]
+    },
+    "class_type": "ImpactConvertDataType",
+    "_meta": {
+      "title": "ImpactConvertDataType"
+    }
+  },
+  "29:975": {
+    "inputs": {
+      "image": [
+        "48",
+        0
+      ]
+    },
+    "class_type": "GetImageSize",
+    "_meta": {
+      "title": "获取图像尺寸"
+    }
+  },
+  "29:976": {
+    "inputs": {
+      "mode": "add",
+      "blend_percentage": 0.5,
+      "image_a": [
+        "48",
+        0
+      ],
+      "image_b": [
+        "29:972",
+        0
+      ]
+    },
+    "class_type": "Image Blending Mode",
+    "_meta": {
+      "title": "图像混合模式"
+    }
+  },
+  "29:977": {
+    "inputs": {
+      "blend_percentage": 1,
+      "image_a": [
+        "29:969",
+        0
+      ],
+      "image_b": [
+        "29:970",
+        0
+      ],
+      "mask": [
+        "29:968",
+        0
+      ]
+    },
+    "class_type": "Image Blend by Mask",
+    "_meta": {
+      "title": "图像遮罩混合"
+    }
+  },
+  "29:978": {
+    "inputs": {
+      "width": [
+        "29:975",
+        0
+      ],
+      "height": [
+        "29:975",
+        1
+      ],
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "空Latent"
+    }
+  },
+  "29:979": {
+    "inputs": {
+      "positive": [
+        "29:973",
+        0
+      ],
+      "negative": [
+        "29:974",
+        0
+      ]
+    },
+    "class_type": "ZipPrompt //Inspire",
+    "_meta": {
+      "title": "打包提示词"
+    }
+  },
+  "29:980": {
+    "inputs": {
+      "image": "$980-0",
+      "block": false,
+      "restore_mask": "never",
+      "images": [
+        "29:976",
+        0
+      ]
+    },
+    "class_type": "PreviewBridge",
+    "_meta": {
+      "title": "桥接预览图像"
+    }
+  },
+  "27:851": {
+    "inputs": {
+      "seed": 817036249851841,
+      "steps": 16,
+      "cfg": 3,
+      "sampler_name": "dpmpp_3m_sde_gpu",
+      "scheduler": "AYS SDXL",
+      "denoise": 1,
+      "basic_pipe": [
+        "17:261",
+        0
+      ],
+      "latent_image": [
+        "49:71",
+        0
+      ]
+    },
+    "class_type": "ImpactKSamplerBasicPipe",
+    "_meta": {
+      "title": "K采样器(节点束)"
+    }
+  },
+  "27:852": {
+    "inputs": {
+      "samples": [
+        "27:851",
+        1
+      ],
+      "vae": [
+        "27:851",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "25:842": {
+    "inputs": {
+      "string_a": [
+        "25:845",
+        1
+      ],
+      "string_b": [
+        "25:843",
+        0
+      ],
+      "delimiter": ""
+    },
+    "class_type": "StringConcatenate",
+    "_meta": {
+      "title": "字符串连锁"
+    }
+  },
+  "25:843": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Negative Prompt"
+    }
+  },
+  "25:846": {
+    "inputs": {
+      "string_a": [
+        "25:845",
+        0
+      ],
+      "string_b": [
+        "25:844",
+        0
+      ],
+      "delimiter": ""
+    },
+    "class_type": "StringConcatenate",
+    "_meta": {
+      "title": "字符串连锁"
+    }
+  },
+  "25:838": {
+    "inputs": {
+      "basic_pipe": [
+        "32:997",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "25:844": {
+    "inputs": {
+      "value": "2girls, sleeping, closed_eyes, on_back, from_above, on_bed, cowboy_shot, messy_sleeper, hug_from_behind"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Positive Prompt"
+    }
+  },
+  "25:845": {
+    "inputs": {
+      "zipped_prompt": [
+        "31:985",
+        0
+      ]
+    },
+    "class_type": "UnzipPrompt //Inspire",
+    "_meta": {
+      "title": "解包提示词"
+    }
+  },
+  "25:839": {
+    "inputs": {
+      "basic_pipe": [
+        "25:838",
+        0
+      ],
+      "positive": [
+        "25:847",
+        0
+      ],
+      "negative": [
+        "25:847",
+        1
+      ]
+    },
+    "class_type": "EditBasicPipe",
+    "_meta": {
+      "title": "编辑基础束"
+    }
+  },
+  "25:841": {
+    "inputs": {
+      "text": [
+        "25:846",
+        0
+      ],
+      "clip": [
+        "25:838",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "25:840": {
+    "inputs": {
+      "text": [
+        "25:842",
+        0
+      ],
+      "clip": [
+        "25:838",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "25:847": {
+    "inputs": {
+      "strength": 1,
+      "start_percent": 0,
+      "end_percent": 1,
+      "positive": [
+        "25:841",
+        0
+      ],
+      "negative": [
+        "25:840",
+        0
+      ],
+      "control_net": [
+        "44",
+        0
+      ],
+      "image": [
+        "29:977",
+        0
+      ]
+    },
+    "class_type": "ControlNetApplyAdvanced",
+    "_meta": {
+      "title": "ControlNet应用（旧版高级）"
+    }
+  },
+  "28:942": {
+    "inputs": {
+      "image": "$942-0",
+      "block": false,
+      "restore_mask": "never",
+      "images": [
+        "28:963",
+        0
+      ]
+    },
+    "class_type": "PreviewBridge",
+    "_meta": {
+      "title": "桥接预览图像"
+    }
+  },
+  "28:943": {
+    "inputs": {
+      "mask": [
+        "28:942",
+        1
+      ]
+    },
+    "class_type": "MaskToImage",
+    "_meta": {
+      "title": "遮罩到图像"
+    }
+  },
+  "28:938": {
+    "inputs": {
+      "detect_hand": "disable",
+      "detect_body": "enable",
+      "detect_face": "disable",
+      "resolution": [
+        "28:954",
+        0
+      ],
+      "scale_stick_for_xinsr_cn": "disable",
+      "image": [
+        "27:852",
+        0
+      ]
+    },
+    "class_type": "OpenposePreprocessor",
+    "_meta": {
+      "title": "Openpose姿态预处理器"
+    }
+  },
+  "28:946": {
+    "inputs": {
+      "width": [
+        "28:945",
+        0
+      ],
+      "height": [
+        "28:945",
+        1
+      ],
+      "batch_size": 1,
+      "color": 0
+    },
+    "class_type": "EmptyImage",
+    "_meta": {
+      "title": "空图像"
+    }
+  },
+  "28:954": {
+    "inputs": {
+      "expression": "iif(a<b,a,b)",
+      "a": [
+        "28:945",
+        0
+      ],
+      "b": [
+        "28:945",
+        1
+      ]
+    },
+    "class_type": "MathExpression|pysssss",
+    "_meta": {
+      "title": "数学表达式"
+    }
+  },
+  "28:939": {
+    "inputs": {
+      "mode": "background",
+      "threshold": 2,
+      "threshold_tolerance": 4,
+      "images": [
+        "28:938",
+        0
+      ]
+    },
+    "class_type": "Image Remove Background (Alpha)",
+    "_meta": {
+      "title": "移除背景(透明)"
+    }
+  },
+  "28:965": {
+    "inputs": {
+      "value": [
+        "28:945",
+        0
+      ]
+    },
+    "class_type": "ImpactConvertDataType",
+    "_meta": {
+      "title": "ImpactConvertDataType"
+    }
+  },
+  "28:966": {
+    "inputs": {
+      "value": [
+        "28:945",
+        1
+      ]
+    },
+    "class_type": "ImpactConvertDataType",
+    "_meta": {
+      "title": "ImpactConvertDataType"
+    }
+  },
+  "28:945": {
+    "inputs": {
+      "image": [
+        "27:852",
+        0
+      ]
+    },
+    "class_type": "GetImageSize",
+    "_meta": {
+      "title": "获取图像尺寸"
+    }
+  },
+  "28:963": {
+    "inputs": {
+      "mode": "add",
+      "blend_percentage": 0.5,
+      "image_a": [
+        "27:852",
+        0
+      ],
+      "image_b": [
+        "28:939",
+        0
+      ]
+    },
+    "class_type": "Image Blending Mode",
+    "_meta": {
+      "title": "图像混合模式"
+    }
+  },
+  "28:940": {
+    "inputs": {
+      "blend_percentage": 1,
+      "image_a": [
+        "28:938",
+        0
+      ],
+      "image_b": [
+        "28:946",
+        0
+      ],
+      "mask": [
+        "28:943",
+        0
+      ]
+    },
+    "class_type": "Image Blend by Mask",
+    "_meta": {
+      "title": "图像遮罩混合"
+    }
+  },
+  "28:967": {
+    "inputs": {
+      "width": [
+        "28:945",
+        0
+      ],
+      "height": [
+        "28:945",
+        1
+      ],
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "空Latent"
+    }
+  },
+  "28:964": {
+    "inputs": {
+      "positive": [
+        "28:965",
+        0
+      ],
+      "negative": [
+        "28:966",
+        0
+      ]
+    },
+    "class_type": "ZipPrompt //Inspire",
+    "_meta": {
+      "title": "打包提示词"
+    }
+  },
+  "37:1006": {
+    "inputs": {
+      "target_red": 255,
+      "target_green": 255,
+      "target_blue": 255,
+      "replace_red": 255,
+      "replace_green": 0,
+      "replace_blue": 0,
+      "clip_threshold": 0,
+      "image": [
+        "37:952",
+        0
+      ]
+    },
+    "class_type": "Image Remove Color",
+    "_meta": {
+      "title": "移除RGB颜色"
+    }
+  },
+  "37:960": {
+    "inputs": {
+      "positive": [
+        "37:961",
+        0
+      ],
+      "negative": [
+        "37:961",
+        0
+      ]
+    },
+    "class_type": "ZipPrompt //Inspire",
+    "_meta": {
+      "title": "打包提示词"
+    }
+  },
+  "37:961": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "字符串（多行）"
+    }
+  },
+  "37:952": {
+    "inputs": {
+      "mask": [
+        "15",
+        1
+      ]
+    },
+    "class_type": "MaskToImage",
+    "_meta": {
+      "title": "遮罩到图像"
+    }
+  },
+  "37:1007": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Negative Prompt"
+    }
+  },
+  "37:871": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "prev_hooks": [
+        "37:1008",
+        0
+      ]
+    },
+    "class_type": "CreateHookLora",
+    "_meta": {
+      "title": "创建约束LoRA"
+    }
+  },
+  "37:1008": {
+    "inputs": {
+      "lora_name": "ILXL\\Character\\[ZZZ] Jane Doe - okingjo.safetensors",
+      "strength_model": 1,
+      "strength_clip": 1
+    },
+    "class_type": "CreateHookLora",
+    "_meta": {
+      "title": "创建约束LoRA"
+    }
+  },
+  "37:1009": {
+    "inputs": {
+      "text": [
+        "37:1014:1105",
+        0
+      ],
+      "clip": [
+        "37:872",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "37:1010": {
+    "inputs": {
+      "positive_A": [
+        "37:1015",
+        4
+      ],
+      "negative_A": [
+        "37:1015",
+        5
+      ],
+      "positive_B": [
+        "37:1024",
+        0
+      ],
+      "negative_B": [
+        "37:1024",
+        1
+      ]
+    },
+    "class_type": "PairConditioningCombine",
+    "_meta": {
+      "title": "条件对合并"
+    }
+  },
+  "37:1011": {
+    "inputs": {
+      "text": [
+        "37:1014:1104",
+        0
+      ],
+      "clip": [
+        "37:1015",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "37:1012": {
+    "inputs": {
+      "text": [
+        "37:1014:1105",
+        0
+      ],
+      "clip": [
+        "37:1015",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "37:1013": {
+    "inputs": {
+      "positive_A": [
+        "37:1018",
+        4
+      ],
+      "negative_A": [
+        "37:1018",
+        5
+      ],
+      "positive_B": [
+        "37:1026",
+        0
+      ],
+      "negative_B": [
+        "37:1026",
+        1
+      ]
+    },
+    "class_type": "PairConditioningCombine",
+    "_meta": {
+      "title": "条件对合并"
+    }
+  },
+  "37:1014:1055": {
+    "inputs": {
+      "source": [
+        "37:1014:1061",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1056": {
+    "inputs": {
+      "source": [
+        "37:1014:1060",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1057": {
+    "inputs": {
+      "string": [
+        "37:1014:1061",
+        0
+      ],
+      "regex_pattern": "(([^\\w-]|^)(wide_shot|full_body|FULL_BODY|feet_out_of_frame|FEET_OUT_OF_FRAME|cowboy_shot|COWBOY_SHOT|upper_body|UPPER_BODY|portrait|PORTRAIT|face|FACE|legs|from_behind|facing_away|closed_eyes)(?=[^\\w-]|$)|(\\w*(hands?|tails?|wings?)\\w*))",
+      "mode": "All Matches",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "group_index": 1
+    },
+    "class_type": "RegexExtract",
+    "_meta": {
+      "title": "getTriggerWords"
+    }
+  },
+  "37:1014:1058": {
+    "inputs": {
+      "source": [
+        "37:1014:1057",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1059": {
+    "inputs": {
+      "source": [
+        "37:1014:1062",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1060": {
+    "inputs": {
+      "string": [
+        "37:1014:1057",
+        0
+      ],
+      "regex_pattern": "\\s*\\n\\s*",
+      "replace": ",",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "toSingleLine"
+    }
+  },
+  "37:1014:1061": {
+    "inputs": {
+      "string": [
+        "37:1014:1107",
+        0
+      ],
+      "regex_pattern": "(?<!,)( )",
+      "replace": "_",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "whitespaceToUnderscore"
+    }
+  },
+  "37:1014:1062": {
+    "inputs": {
+      "string_a": [
+        "37:1014:1060",
+        0
+      ],
+      "string_b": "\\1",
+      "delimiter": ""
+    },
+    "class_type": "StringConcatenate",
+    "_meta": {
+      "title": "字符串连锁"
+    }
+  },
+  "37:1014:1063": {
+    "inputs": {
+      "source": [
+        "37:1014:1064",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1064": {
+    "inputs": {
+      "string": [
+        "37:1014:1066",
+        0
+      ],
+      "regex_pattern": "((?!.*(facing_away|closed_eyes))(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|face|FACE).*))",
+      "replace": "\\1\\\\3",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "EYEBALLS"
+    }
+  },
+  "37:1014:1065": {
+    "inputs": {
+      "source": [
+        "37:1014:1090",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1066": {
+    "inputs": {
+      "string": [
+        "37:1014:1062",
+        0
+      ],
+      "regex_pattern": "(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|face|FACE).*)",
+      "replace": "\\1\\\\2",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "HEAD"
+    }
+  },
+  "37:1014:1067": {
+    "inputs": {
+      "source": [
+        "37:1014:1066",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1068": {
+    "inputs": {
+      "source": [
+        "37:1014:1080",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1069": {
+    "inputs": {
+      "source": [
+        "37:1014:1081",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1070": {
+    "inputs": {
+      "source": [
+        "37:1014:1082",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1071": {
+    "inputs": {
+      "source": [
+        "37:1014:1083",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1072": {
+    "inputs": {
+      "source": [
+        "37:1014:1091",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1073": {
+    "inputs": {
+      "source": [
+        "37:1014:1092",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1074": {
+    "inputs": {
+      "source": [
+        "37:1014:1084",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1075": {
+    "inputs": {
+      "source": [
+        "37:1014:1085",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1076": {
+    "inputs": {
+      "source": [
+        "37:1014:1086",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1077": {
+    "inputs": {
+      "source": [
+        "37:1014:1087",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1078": {
+    "inputs": {
+      "source": [
+        "37:1014:1088",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1079": {
+    "inputs": {
+      "source": [
+        "37:1014:1089",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1080": {
+    "inputs": {
+      "string": [
+        "37:1014:1090",
+        0
+      ],
+      "regex_pattern": "(?!.*facing_away)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|face|FACE).*)",
+      "replace": "\\1\\\\5",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "FACE"
+    }
+  },
+  "37:1014:1081": {
+    "inputs": {
+      "string": [
+        "37:1014:1080",
+        0
+      ],
+      "regex_pattern": "(?!.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|PORTRAIT).*)",
+      "replace": "\\1\\\\6",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "PORTRAIT_FRONT"
+    }
+  },
+  "37:1014:1082": {
+    "inputs": {
+      "string": [
+        "37:1014:1081",
+        0
+      ],
+      "regex_pattern": "(?=.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|PORTRAIT).*)",
+      "replace": "\\1\\\\7",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "PORTRAIT_BACK"
+    }
+  },
+  "37:1014:1083": {
+    "inputs": {
+      "string": [
+        "37:1014:1082",
+        0
+      ],
+      "regex_pattern": "(?!.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|UPPER_BODY).*)",
+      "replace": "\\1\\\\8",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "UPPER_BODY_FRONT"
+    }
+  },
+  "37:1014:1084": {
+    "inputs": {
+      "string": [
+        "37:1014:1092",
+        0
+      ],
+      "regex_pattern": "(?=.*frombehind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|COWBOY_SHOT).*)",
+      "replace": "\\1\\\\11",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "COWBOW_SHOT_BACK"
+    }
+  },
+  "37:1014:1085": {
+    "inputs": {
+      "string": [
+        "37:1014:1084",
+        0
+      ],
+      "regex_pattern": "(.*(wide_shot|full_body|feet_out_of_frame|FEET_OUT_OF_FRAME|legs).*)",
+      "replace": "\\1\\\\12",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "FEET_OUT_OF_FRAME"
+    }
+  },
+  "37:1014:1086": {
+    "inputs": {
+      "string": [
+        "37:1014:1085",
+        0
+      ],
+      "regex_pattern": "(.*(wide_shot|full_body|FULL_BODY|legs|feet).*)",
+      "replace": "\\1\\\\13",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "FULL_BODY"
+    }
+  },
+  "37:1014:1087": {
+    "inputs": {
+      "string": [
+        "37:1014:1086",
+        0
+      ],
+      "regex_pattern": "(.*[^a-zA-Z]((?<![^a-zA-Z]pov_)hands?)[^a-zA-Z].*)",
+      "replace": "\\1\\\\14",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "HANDS"
+    }
+  },
+  "37:1014:1088": {
+    "inputs": {
+      "string": [
+        "37:1014:1087",
+        0
+      ],
+      "regex_pattern": "((((?=.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body))|[^a-zA-Z](tails?)[^a-zA-Z]).*))",
+      "replace": "\\1\\\\15",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "TAIL"
+    }
+  },
+  "37:1014:1089": {
+    "inputs": {
+      "string": [
+        "37:1014:1088",
+        0
+      ],
+      "regex_pattern": "((((?=.*frombehind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body))|[^a-zA-Z](wings?)[^a-zA-Z]).*))",
+      "replace": "\\1\\\\16",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "WINGS"
+    }
+  },
+  "37:1014:1090": {
+    "inputs": {
+      "string": [
+        "37:1014:1064",
+        0
+      ],
+      "regex_pattern": "/(.*[^a-zA-Z](tongue|licking)[^a-zA-Z].*)/",
+      "replace": "\\1\\\\4",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "TONGUE"
+    }
+  },
+  "37:1014:1091": {
+    "inputs": {
+      "string": [
+        "37:1014:1083",
+        0
+      ],
+      "regex_pattern": "(?=.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|UPPER_BODY).*)",
+      "replace": "\\1\\\\9",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "UPPER_BODY_BACK"
+    }
+  },
+  "37:1014:1092": {
+    "inputs": {
+      "string": [
+        "37:1014:1091",
+        0
+      ],
+      "regex_pattern": "(?!.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|COWBOY_SHOT).*)",
+      "replace": "\\1\\\\10",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "COWBOW_SHOT_FRONT"
+    }
+  },
+  "37:1014:1093": {
+    "inputs": {
+      "source": [
+        "37:1014:1094",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1094": {
+    "inputs": {
+      "string": [
+        "37:1014:1089",
+        0
+      ],
+      "regex_pattern": "([^\\\\]*)(\\\\\\d+)([^\\\\]*)",
+      "replace": "\\2",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "getGroups"
+    }
+  },
+  "37:1014:1095": {
+    "inputs": {
+      "source": [
+        "37:1014:1098",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1096": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveString",
+    "_meta": {
+      "title": "Dummy String"
+    }
+  },
+  "37:1014:1097": {
+    "inputs": {
+      "source": [
+        "37:1014:1099",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "37:1014:1098": {
+    "inputs": {
+      "string": [
+        "41",
+        0
+      ],
+      "regex_pattern": "^>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n?([^>]*)?",
+      "replace": [
+        "37:1014:1094",
+        0
+      ],
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "parseCharacterCard"
+    }
+  },
+  "37:1014:1099": {
+    "inputs": {
+      "string": [
+        "41",
+        0
+      ],
+      "regex_pattern": ">.*\\n([^>]*)$",
+      "mode": "First Group",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "group_index": 1
+    },
+    "class_type": "RegexExtract",
+    "_meta": {
+      "title": "NEGATIVE"
+    }
+  },
+  "37:1014:1100": {
+    "inputs": {
+      "source": [
+        "37:1014:1104",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "Preview Positive Final"
+    }
+  },
+  "37:1014:1101": {
+    "inputs": {
+      "source": [
+        "37:1014:1105",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "Preview Negative Final"
+    }
+  },
+  "37:1014:1103": {
+    "inputs": {
+      "zipped_prompt": [
+        "37:960",
+        0
+      ]
+    },
+    "class_type": "UnzipPrompt //Inspire",
+    "_meta": {
+      "title": "解包提示词"
+    }
+  },
+  "37:1014:1104": {
+    "inputs": {
+      "delimiter": "\\n",
+      "clean_whitespace": "false",
+      "text_a": [
+        "37:1014:1107",
+        0
+      ],
+      "text_b": [
+        "37:1014:1098",
+        0
+      ],
+      "text_c": [
+        "37:1014:1103",
+        0
+      ],
+      "text_d": [
+        "37:1014:1096",
+        0
+      ]
+    },
+    "class_type": "Text Concatenate",
+    "_meta": {
+      "title": "文本连锁"
+    }
+  },
+  "37:1014:1105": {
+    "inputs": {
+      "delimiter": "\\n",
+      "clean_whitespace": "false",
+      "text_a": [
+        "37:1014:1106",
+        0
+      ],
+      "text_b": [
+        "37:1014:1099",
+        0
+      ],
+      "text_c": [
+        "37:1014:1103",
+        1
+      ],
+      "text_d": [
+        "37:1014:1096",
+        0
+      ]
+    },
+    "class_type": "Text Concatenate",
+    "_meta": {
+      "title": "文本连锁"
+    }
+  },
+  "37:1014:1106": {
+    "inputs": {
+      "value": [
+        "37:1007",
+        0
+      ]
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Negative Prompt"
+    }
+  },
+  "37:1014:1107": {
+    "inputs": {
+      "value": [
+        "37:1023",
+        0
+      ]
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Positive Prompt"
+    }
+  },
+  "37:1014:1108": {
+    "inputs": {
+      "basic_pipe": [
+        "37:1014:1111",
+        0
+      ],
+      "positive": [
+        "37:1014:1109",
+        0
+      ],
+      "negative": [
+        "37:1014:1110",
+        0
+      ]
+    },
+    "class_type": "EditBasicPipe",
+    "_meta": {
+      "title": "编辑基础束"
+    }
+  },
+  "37:1014:1109": {
+    "inputs": {
+      "text": [
+        "37:1014:1104",
+        0
+      ],
+      "clip": [
+        "37:1014:1111",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "37:1014:1110": {
+    "inputs": {
+      "text": [
+        "37:1014:1105",
+        0
+      ],
+      "clip": [
+        "37:1014:1111",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "37:1014:1111": {
+    "inputs": {
+      "basic_pipe": [
+        "37:1015",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "37:1015": {
+    "inputs": {
+      "basic_pipe": [
+        "25:839",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "37:872": {
+    "inputs": {
+      "apply_to_conds": true,
+      "schedule_clip": false,
+      "clip": [
+        "37:1015",
+        2
+      ],
+      "hooks": [
+        "37:871",
+        0
+      ]
+    },
+    "class_type": "SetClipHooks",
+    "_meta": {
+      "title": "设置CLIP约束"
+    }
+  },
+  "37:953": {
+    "inputs": {
+      "basic_pipe": [
+        "37:1015",
+        0
+      ],
+      "positive": [
+        "37:1010",
+        0
+      ],
+      "negative": [
+        "37:1010",
+        1
+      ]
+    },
+    "class_type": "EditBasicPipe",
+    "_meta": {
+      "title": "编辑基础束"
+    }
+  },
+  "37:1016": {
+    "inputs": {
+      "text": [
+        "37:1014:1104",
+        0
+      ],
+      "clip": [
+        "37:872",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "37:1017": {
+    "inputs": {
+      "basic_pipe": [
+        "37:1018",
+        0
+      ],
+      "positive": [
+        "37:1013",
+        0
+      ],
+      "negative": [
+        "37:1013",
+        1
+      ]
+    },
+    "class_type": "EditBasicPipe",
+    "_meta": {
+      "title": "编辑基础束"
+    }
+  },
+  "37:1018": {
+    "inputs": {
+      "basic_pipe": [
+        "25:839",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "37:1020": {
+    "inputs": {
+      "images": [
+        "37:1021",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "37:1021": {
+    "inputs": {
+      "padding_left": 0,
+      "padding_right": 0,
+      "padding_top": 0,
+      "padding_bottom": 0,
+      "return_list": false,
+      "image": [
+        "29:977",
+        0
+      ],
+      "mask": [
+        "15",
+        1
+      ]
+    },
+    "class_type": "Bounded Image Crop with Mask",
+    "_meta": {
+      "title": "图像遮罩边界"
+    }
+  },
+  "37:1023": {
+    "inputs": {
+      "value": "cowboy_shot, on_back, closed_eyes, parted_lips"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Positive Prompt"
+    }
+  },
+  "37:1024": {
+    "inputs": {
+      "strength": 1,
+      "start_percent": 0,
+      "end_percent": 1,
+      "positive": [
+        "37:1025",
+        0
+      ],
+      "negative": [
+        "37:1025",
+        1
+      ],
+      "control_net": [
+        "44",
+        0
+      ],
+      "image": [
+        "37:1021",
+        0
+      ]
+    },
+    "class_type": "ControlNetApplyAdvanced",
+    "_meta": {
+      "title": "ControlNet应用（旧版高级）"
+    }
+  },
+  "37:1025": {
+    "inputs": {
+      "strength": 1,
+      "set_cond_area": "mask bounds",
+      "positive_NEW": [
+        "37:1016",
+        0
+      ],
+      "negative_NEW": [
+        "37:1009",
+        0
+      ],
+      "mask": [
+        "15",
+        1
+      ]
+    },
+    "class_type": "PairConditioningSetProperties",
+    "_meta": {
+      "title": "条件对设置属性"
+    }
+  },
+  "37:1026": {
+    "inputs": {
+      "strength": 1,
+      "set_cond_area": "mask bounds",
+      "positive_NEW": [
+        "37:1011",
+        0
+      ],
+      "negative_NEW": [
+        "37:1012",
+        0
+      ],
+      "mask": [
+        "15",
+        1
+      ]
+    },
+    "class_type": "PairConditioningSetProperties",
+    "_meta": {
+      "title": "条件对设置属性"
+    }
+  },
+  "37:962": {
+    "inputs": {
+      "blend_percentage": 0.5,
+      "image_a": [
+        "29:976",
+        0
+      ],
+      "image_b": [
+        "37:1006",
+        0
+      ],
+      "mask": [
+        "37:952",
+        0
+      ]
+    },
+    "class_type": "Image Blend by Mask",
+    "_meta": {
+      "title": "图像遮罩混合"
+    }
+  },
+  "38:1027": {
+    "inputs": {
+      "positive": [
+        "38:1028",
+        0
+      ],
+      "negative": [
+        "38:1028",
+        0
+      ]
+    },
+    "class_type": "ZipPrompt //Inspire",
+    "_meta": {
+      "title": "打包提示词"
+    }
+  },
+  "38:1028": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "字符串（多行）"
+    }
+  },
+  "38:1029": {
+    "inputs": {
+      "mask": [
+        "16",
+        1
+      ]
+    },
+    "class_type": "MaskToImage",
+    "_meta": {
+      "title": "遮罩到图像"
+    }
+  },
+  "38:1030": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Negative Prompt"
+    }
+  },
+  "38:1031": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0,
+      "prev_hooks": [
+        "38:1032",
+        0
+      ]
+    },
+    "class_type": "CreateHookLora",
+    "_meta": {
+      "title": "创建约束LoRA"
+    }
+  },
+  "38:1032": {
+    "inputs": {
+      "lora_name": "None.safetensors",
+      "strength_model": 0,
+      "strength_clip": 0
+    },
+    "class_type": "CreateHookLora",
+    "_meta": {
+      "title": "创建约束LoRA"
+    }
+  },
+  "38:1033": {
+    "inputs": {
+      "text": [
+        "38:1040:1105",
+        0
+      ],
+      "clip": [
+        "38:1042",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "38:1034": {
+    "inputs": {
+      "positive_A": [
+        "38:1041",
+        4
+      ],
+      "negative_A": [
+        "38:1041",
+        5
+      ],
+      "positive_B": [
+        "38:1052",
+        0
+      ],
+      "negative_B": [
+        "38:1052",
+        1
+      ]
+    },
+    "class_type": "PairConditioningCombine",
+    "_meta": {
+      "title": "条件对合并"
+    }
+  },
+  "38:1035": {
+    "inputs": {
+      "strength": 1,
+      "set_cond_area": "mask bounds",
+      "positive_NEW": [
+        "38:1044",
+        0
+      ],
+      "negative_NEW": [
+        "38:1033",
+        0
+      ],
+      "mask": [
+        "16",
+        1
+      ]
+    },
+    "class_type": "PairConditioningSetProperties",
+    "_meta": {
+      "title": "条件对设置属性"
+    }
+  },
+  "38:1036": {
+    "inputs": {
+      "strength": 1,
+      "set_cond_area": "mask bounds",
+      "positive_NEW": [
+        "38:1037",
+        0
+      ],
+      "negative_NEW": [
+        "38:1038",
+        0
+      ],
+      "mask": [
+        "16",
+        1
+      ]
+    },
+    "class_type": "PairConditioningSetProperties",
+    "_meta": {
+      "title": "条件对设置属性"
+    }
+  },
+  "38:1037": {
+    "inputs": {
+      "text": [
+        "38:1040:1104",
+        0
+      ],
+      "clip": [
+        "38:1041",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "38:1038": {
+    "inputs": {
+      "text": [
+        "38:1040:1105",
+        0
+      ],
+      "clip": [
+        "38:1041",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "38:1039": {
+    "inputs": {
+      "positive_A": [
+        "38:1046",
+        4
+      ],
+      "negative_A": [
+        "38:1046",
+        5
+      ],
+      "positive_B": [
+        "38:1036",
+        0
+      ],
+      "negative_B": [
+        "38:1036",
+        1
+      ]
+    },
+    "class_type": "PairConditioningCombine",
+    "_meta": {
+      "title": "条件对合并"
+    }
+  },
+  "38:1040:1055": {
+    "inputs": {
+      "source": [
+        "38:1040:1061",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1056": {
+    "inputs": {
+      "source": [
+        "38:1040:1060",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1057": {
+    "inputs": {
+      "string": [
+        "38:1040:1061",
+        0
+      ],
+      "regex_pattern": "(([^\\w-]|^)(wide_shot|full_body|FULL_BODY|feet_out_of_frame|FEET_OUT_OF_FRAME|cowboy_shot|COWBOY_SHOT|upper_body|UPPER_BODY|portrait|PORTRAIT|face|FACE|legs|from_behind|facing_away|closed_eyes)(?=[^\\w-]|$)|(\\w*(hands?|tails?|wings?)\\w*))",
+      "mode": "All Matches",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "group_index": 1
+    },
+    "class_type": "RegexExtract",
+    "_meta": {
+      "title": "getTriggerWords"
+    }
+  },
+  "38:1040:1058": {
+    "inputs": {
+      "source": [
+        "38:1040:1057",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1059": {
+    "inputs": {
+      "source": [
+        "38:1040:1062",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1060": {
+    "inputs": {
+      "string": [
+        "38:1040:1057",
+        0
+      ],
+      "regex_pattern": "\\s*\\n\\s*",
+      "replace": ",",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "toSingleLine"
+    }
+  },
+  "38:1040:1061": {
+    "inputs": {
+      "string": [
+        "38:1040:1107",
+        0
+      ],
+      "regex_pattern": "(?<!,)( )",
+      "replace": "_",
+      "case_insensitive": true,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "whitespaceToUnderscore"
+    }
+  },
+  "38:1040:1062": {
+    "inputs": {
+      "string_a": [
+        "38:1040:1060",
+        0
+      ],
+      "string_b": "\\1",
+      "delimiter": ""
+    },
+    "class_type": "StringConcatenate",
+    "_meta": {
+      "title": "字符串连锁"
+    }
+  },
+  "38:1040:1063": {
+    "inputs": {
+      "source": [
+        "38:1040:1064",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1064": {
+    "inputs": {
+      "string": [
+        "38:1040:1066",
+        0
+      ],
+      "regex_pattern": "((?!.*(facing_away|closed_eyes))(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|face|FACE).*))",
+      "replace": "\\1\\\\3",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "EYEBALLS"
+    }
+  },
+  "38:1040:1065": {
+    "inputs": {
+      "source": [
+        "38:1040:1090",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1066": {
+    "inputs": {
+      "string": [
+        "38:1040:1062",
+        0
+      ],
+      "regex_pattern": "(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|face|FACE).*)",
+      "replace": "\\1\\\\2",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "HEAD"
+    }
+  },
+  "38:1040:1067": {
+    "inputs": {
+      "source": [
+        "38:1040:1066",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1068": {
+    "inputs": {
+      "source": [
+        "38:1040:1080",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1069": {
+    "inputs": {
+      "source": [
+        "38:1040:1081",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1070": {
+    "inputs": {
+      "source": [
+        "38:1040:1082",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1071": {
+    "inputs": {
+      "source": [
+        "38:1040:1083",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1072": {
+    "inputs": {
+      "source": [
+        "38:1040:1091",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1073": {
+    "inputs": {
+      "source": [
+        "38:1040:1092",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1074": {
+    "inputs": {
+      "source": [
+        "38:1040:1084",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1075": {
+    "inputs": {
+      "source": [
+        "38:1040:1085",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1076": {
+    "inputs": {
+      "source": [
+        "38:1040:1086",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1077": {
+    "inputs": {
+      "source": [
+        "38:1040:1087",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1078": {
+    "inputs": {
+      "source": [
+        "38:1040:1088",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1079": {
+    "inputs": {
+      "source": [
+        "38:1040:1089",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1080": {
+    "inputs": {
+      "string": [
+        "38:1040:1090",
+        0
+      ],
+      "regex_pattern": "(?!.*facing_away)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|face|FACE).*)",
+      "replace": "\\1\\\\5",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "FACE"
+    }
+  },
+  "38:1040:1081": {
+    "inputs": {
+      "string": [
+        "38:1040:1080",
+        0
+      ],
+      "regex_pattern": "(?!.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|PORTRAIT).*)",
+      "replace": "\\1\\\\6",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "PORTRAIT_FRONT"
+    }
+  },
+  "38:1040:1082": {
+    "inputs": {
+      "string": [
+        "38:1040:1081",
+        0
+      ],
+      "regex_pattern": "(?=.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|portrait|PORTRAIT).*)",
+      "replace": "\\1\\\\7",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "PORTRAIT_BACK"
+    }
+  },
+  "38:1040:1083": {
+    "inputs": {
+      "string": [
+        "38:1040:1082",
+        0
+      ],
+      "regex_pattern": "(?!.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|UPPER_BODY).*)",
+      "replace": "\\1\\\\8",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "UPPER_BODY_FRONT"
+    }
+  },
+  "38:1040:1084": {
+    "inputs": {
+      "string": [
+        "38:1040:1092",
+        0
+      ],
+      "regex_pattern": "(?=.*frombehind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|COWBOY_SHOT).*)",
+      "replace": "\\1\\\\11",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "COWBOW_SHOT_BACK"
+    }
+  },
+  "38:1040:1085": {
+    "inputs": {
+      "string": [
+        "38:1040:1084",
+        0
+      ],
+      "regex_pattern": "(.*(wide_shot|full_body|feet_out_of_frame|FEET_OUT_OF_FRAME|legs).*)",
+      "replace": "\\1\\\\12",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "FEET_OUT_OF_FRAME"
+    }
+  },
+  "38:1040:1086": {
+    "inputs": {
+      "string": [
+        "38:1040:1085",
+        0
+      ],
+      "regex_pattern": "(.*(wide_shot|full_body|FULL_BODY|legs|feet).*)",
+      "replace": "\\1\\\\13",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "FULL_BODY"
+    }
+  },
+  "38:1040:1087": {
+    "inputs": {
+      "string": [
+        "38:1040:1086",
+        0
+      ],
+      "regex_pattern": "(.*[^a-zA-Z]((?<![^a-zA-Z]pov_)hands?)[^a-zA-Z].*)",
+      "replace": "\\1\\\\14",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "HANDS"
+    }
+  },
+  "38:1040:1088": {
+    "inputs": {
+      "string": [
+        "38:1040:1087",
+        0
+      ],
+      "regex_pattern": "((((?=.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body))|[^a-zA-Z](tails?)[^a-zA-Z]).*))",
+      "replace": "\\1\\\\15",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "TAIL"
+    }
+  },
+  "38:1040:1089": {
+    "inputs": {
+      "string": [
+        "38:1040:1088",
+        0
+      ],
+      "regex_pattern": "((((?=.*frombehind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body))|[^a-zA-Z](wings?)[^a-zA-Z]).*))",
+      "replace": "\\1\\\\16",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "WINGS"
+    }
+  },
+  "38:1040:1090": {
+    "inputs": {
+      "string": [
+        "38:1040:1064",
+        0
+      ],
+      "regex_pattern": "/(.*[^a-zA-Z](tongue|licking)[^a-zA-Z].*)/",
+      "replace": "\\1\\\\4",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "TONGUE"
+    }
+  },
+  "38:1040:1091": {
+    "inputs": {
+      "string": [
+        "38:1040:1083",
+        0
+      ],
+      "regex_pattern": "(?=.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|upper_body|UPPER_BODY).*)",
+      "replace": "\\1\\\\9",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "UPPER_BODY_BACK"
+    }
+  },
+  "38:1040:1092": {
+    "inputs": {
+      "string": [
+        "38:1040:1091",
+        0
+      ],
+      "regex_pattern": "(?!.*from_behind)(.*(wide_shot|full_body|feet_out_of_frame|cowboy_shot|COWBOY_SHOT).*)",
+      "replace": "\\1\\\\10",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "COWBOW_SHOT_FRONT"
+    }
+  },
+  "38:1040:1093": {
+    "inputs": {
+      "source": [
+        "38:1040:1094",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1094": {
+    "inputs": {
+      "string": [
+        "38:1040:1089",
+        0
+      ],
+      "regex_pattern": "([^\\\\]*)(\\\\\\d+)([^\\\\]*)",
+      "replace": "\\2",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "getGroups"
+    }
+  },
+  "38:1040:1095": {
+    "inputs": {
+      "source": [
+        "38:1040:1098",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1096": {
+    "inputs": {
+      "value": ""
+    },
+    "class_type": "PrimitiveString",
+    "_meta": {
+      "title": "Dummy String"
+    }
+  },
+  "38:1040:1097": {
+    "inputs": {
+      "source": [
+        "38:1040:1099",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "预览任意"
+    }
+  },
+  "38:1040:1098": {
+    "inputs": {
+      "string": [
+        "42",
+        0
+      ],
+      "regex_pattern": "^>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n([^>]*)>.*\\n?([^>]*)?",
+      "replace": [
+        "38:1040:1094",
+        0
+      ],
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "count": 0
+    },
+    "class_type": "RegexReplace",
+    "_meta": {
+      "title": "parseCharacterCard"
+    }
+  },
+  "38:1040:1099": {
+    "inputs": {
+      "string": [
+        "42",
+        0
+      ],
+      "regex_pattern": ">.*\\n([^>]*)$",
+      "mode": "First Group",
+      "case_insensitive": false,
+      "multiline": false,
+      "dotall": false,
+      "group_index": 1
+    },
+    "class_type": "RegexExtract",
+    "_meta": {
+      "title": "NEGATIVE"
+    }
+  },
+  "38:1040:1100": {
+    "inputs": {
+      "source": [
+        "38:1040:1104",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "Preview Positive Final"
+    }
+  },
+  "38:1040:1101": {
+    "inputs": {
+      "source": [
+        "38:1040:1105",
+        0
+      ]
+    },
+    "class_type": "PreviewAny",
+    "_meta": {
+      "title": "Preview Negative Final"
+    }
+  },
+  "38:1040:1103": {
+    "inputs": {
+      "zipped_prompt": [
+        "38:1027",
+        0
+      ]
+    },
+    "class_type": "UnzipPrompt //Inspire",
+    "_meta": {
+      "title": "解包提示词"
+    }
+  },
+  "38:1040:1104": {
+    "inputs": {
+      "delimiter": "\\n",
+      "clean_whitespace": "false",
+      "text_a": [
+        "38:1040:1107",
+        0
+      ],
+      "text_b": [
+        "38:1040:1098",
+        0
+      ],
+      "text_c": [
+        "38:1040:1103",
+        0
+      ],
+      "text_d": [
+        "38:1040:1096",
+        0
+      ]
+    },
+    "class_type": "Text Concatenate",
+    "_meta": {
+      "title": "文本连锁"
+    }
+  },
+  "38:1040:1105": {
+    "inputs": {
+      "delimiter": "\\n",
+      "clean_whitespace": "false",
+      "text_a": [
+        "38:1040:1106",
+        0
+      ],
+      "text_b": [
+        "38:1040:1099",
+        0
+      ],
+      "text_c": [
+        "38:1040:1103",
+        1
+      ],
+      "text_d": [
+        "38:1040:1096",
+        0
+      ]
+    },
+    "class_type": "Text Concatenate",
+    "_meta": {
+      "title": "文本连锁"
+    }
+  },
+  "38:1040:1106": {
+    "inputs": {
+      "value": [
+        "38:1030",
+        0
+      ]
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Negative Prompt"
+    }
+  },
+  "38:1040:1107": {
+    "inputs": {
+      "value": [
+        "38:1051",
+        0
+      ]
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Positive Prompt"
+    }
+  },
+  "38:1040:1108": {
+    "inputs": {
+      "basic_pipe": [
+        "38:1040:1111",
+        0
+      ],
+      "positive": [
+        "38:1040:1109",
+        0
+      ],
+      "negative": [
+        "38:1040:1110",
+        0
+      ]
+    },
+    "class_type": "EditBasicPipe",
+    "_meta": {
+      "title": "编辑基础束"
+    }
+  },
+  "38:1040:1109": {
+    "inputs": {
+      "text": [
+        "38:1040:1104",
+        0
+      ],
+      "clip": [
+        "38:1040:1111",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "38:1040:1110": {
+    "inputs": {
+      "text": [
+        "38:1040:1105",
+        0
+      ],
+      "clip": [
+        "38:1040:1111",
+        2
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "38:1040:1111": {
+    "inputs": {
+      "basic_pipe": [
+        "38:1041",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "38:1041": {
+    "inputs": {
+      "basic_pipe": [
+        "37:953",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "38:1042": {
+    "inputs": {
+      "apply_to_conds": true,
+      "schedule_clip": false,
+      "clip": [
+        "38:1041",
+        2
+      ],
+      "hooks": [
+        "38:1031",
+        0
+      ]
+    },
+    "class_type": "SetClipHooks",
+    "_meta": {
+      "title": "设置CLIP约束"
+    }
+  },
+  "38:1043": {
+    "inputs": {
+      "basic_pipe": [
+        "38:1041",
+        0
+      ],
+      "positive": [
+        "38:1034",
+        0
+      ],
+      "negative": [
+        "38:1034",
+        1
+      ]
+    },
+    "class_type": "EditBasicPipe",
+    "_meta": {
+      "title": "编辑基础束"
+    }
+  },
+  "38:1044": {
+    "inputs": {
+      "text": [
+        "38:1040:1104",
+        0
+      ],
+      "clip": [
+        "38:1042",
+        0
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP文本编码器"
+    }
+  },
+  "38:1045": {
+    "inputs": {
+      "basic_pipe": [
+        "38:1046",
+        0
+      ],
+      "positive": [
+        "38:1039",
+        0
+      ],
+      "negative": [
+        "38:1039",
+        1
+      ]
+    },
+    "class_type": "EditBasicPipe",
+    "_meta": {
+      "title": "编辑基础束"
+    }
+  },
+  "38:1046": {
+    "inputs": {
+      "basic_pipe": [
+        "37:1017",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "38:1048": {
+    "inputs": {
+      "images": [
+        "38:1049",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "38:1049": {
+    "inputs": {
+      "padding_left": 0,
+      "padding_right": 0,
+      "padding_top": 0,
+      "padding_bottom": 0,
+      "return_list": false,
+      "image": [
+        "29:977",
+        0
+      ],
+      "mask": [
+        "16",
+        1
+      ]
+    },
+    "class_type": "Bounded Image Crop with Mask",
+    "_meta": {
+      "title": "图像遮罩边界"
+    }
+  },
+  "38:1051": {
+    "inputs": {
+      "value": "cowboy_shot, on_side, closed_eyes"
+    },
+    "class_type": "PrimitiveStringMultiline",
+    "_meta": {
+      "title": "Positive Prompt"
+    }
+  },
+  "38:1052": {
+    "inputs": {
+      "strength": 1,
+      "start_percent": 0,
+      "end_percent": 1,
+      "positive": [
+        "38:1035",
+        0
+      ],
+      "negative": [
+        "38:1035",
+        1
+      ],
+      "control_net": [
+        "44",
+        0
+      ],
+      "image": [
+        "38:1049",
+        0
+      ]
+    },
+    "class_type": "ControlNetApplyAdvanced",
+    "_meta": {
+      "title": "ControlNet应用（旧版高级）"
+    }
+  },
+  "38:1053": {
+    "inputs": {
+      "target_red": 255,
+      "target_green": 255,
+      "target_blue": 255,
+      "replace_red": 0,
+      "replace_green": 255,
+      "replace_blue": 0,
+      "clip_threshold": 0,
+      "image": [
+        "38:1029",
+        0
+      ]
+    },
+    "class_type": "Image Remove Color",
+    "_meta": {
+      "title": "移除RGB颜色"
+    }
+  },
+  "38:1054": {
+    "inputs": {
+      "blend_percentage": 0.5,
+      "image_a": [
+        "37:962",
+        0
+      ],
+      "image_b": [
+        "38:1053",
+        0
+      ],
+      "mask": [
+        "38:1029",
+        0
+      ]
+    },
+    "class_type": "Image Blend by Mask",
+    "_meta": {
+      "title": "图像遮罩混合"
+    }
+  },
+  "24:187": {
+    "inputs": {
+      "samples": [
+        "24:177",
+        1
+      ],
+      "vae": [
+        "24:177",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "24:177": {
+    "inputs": {
+      "seed": 137388418305759,
+      "steps": 16,
+      "cfg": 3,
+      "sampler_name": "dpmpp_2s_ancestral_cfg_pp",
+      "scheduler": "AYS SDXL",
+      "denoise": 1,
+      "basic_pipe": [
+        "38:1043",
+        0
+      ],
+      "latent_image": [
+        "29:978",
+        0
+      ]
+    },
+    "class_type": "ImpactKSamplerBasicPipe",
+    "_meta": {
+      "title": "K采样器(节点束)"
+    }
+  },
+  "20:754": {
+    "inputs": {
+      "basic_pipe": [
+        "24:177",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "20:755": {
+    "inputs": {
+      "wildcard": "",
+      "Select to add LoRA": "Select the LoRA to add to the text",
+      "Select to add Wildcard": "Select the Wildcard to add to the text",
+      "base_basic_pipe": [
+        "20:754",
+        0
+      ],
+      "refiner_basic_pipe": [
+        "20:754",
+        0
+      ],
+      "bbox_detector": [
+        "20:757",
+        0
+      ]
+    },
+    "class_type": "BasicPipeToDetailerPipeSDXL",
+    "_meta": {
+      "title": "基础束到细化束(SDXL)"
+    }
+  },
+  "20:756": {
+    "inputs": {
+      "pixels": [
+        "20:758",
+        0
+      ],
+      "vae": [
+        "20:754",
+        3
+      ]
+    },
+    "class_type": "VAEEncode",
+    "_meta": {
+      "title": "VAE编码"
+    }
+  },
+  "20:757": {
+    "inputs": {
+      "model_name": "bbox/face_yolov8m.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "检测加载器"
+    }
+  },
+  "20:758": {
+    "inputs": {
+      "guide_size": 512,
+      "guide_size_for": true,
+      "max_size": 1024,
+      "seed": 883532345033696,
+      "steps": 16,
+      "cfg": 3,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "denoise": 0.5,
+      "feather": 20,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.5,
+      "bbox_dilation": 10,
+      "bbox_crop_factor": 3,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "refiner_ratio": 0.2,
+      "cycle": 1,
+      "inpaint_model": false,
+      "noise_mask_feather": 20,
+      "tiled_encode": false,
+      "tiled_decode": false,
+      "image": [
+        "24:187",
+        0
+      ],
+      "detailer_pipe": [
+        "20:755",
+        0
+      ]
+    },
+    "class_type": "FaceDetailerPipe",
+    "_meta": {
+      "title": "面部细化(节点束)"
+    }
+  },
+  "20:759": {
+    "inputs": {
+      "mask": [
+        "20:758",
+        3
+      ]
+    },
+    "class_type": "MaskToImage",
+    "_meta": {
+      "title": "遮罩到图像"
+    }
+  },
+  "20:760": {
+    "inputs": {
+      "images": [
+        "20:758",
+        2
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "20:761": {
+    "inputs": {
+      "images": [
+        "20:758",
+        5
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "20:762": {
+    "inputs": {
+      "images": [
+        "20:758",
+        1
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "20:763": {
+    "inputs": {
+      "images": [
+        "20:759",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "10:331": {
+    "inputs": {
+      "basic_pipe": [
+        "20:754",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "10:327": {
+    "inputs": {
+      "wildcard": "",
+      "Select to add LoRA": "Select the LoRA to add to the text",
+      "Select to add Wildcard": "Select the Wildcard to add to the text",
+      "base_basic_pipe": [
+        "10:331",
+        0
+      ],
+      "refiner_basic_pipe": [
+        "10:331",
+        0
+      ],
+      "bbox_detector": [
+        "10:325",
+        0
+      ]
+    },
+    "class_type": "BasicPipeToDetailerPipeSDXL",
+    "_meta": {
+      "title": "基础束到细化束(SDXL)"
+    }
+  },
+  "10:332": {
+    "inputs": {
+      "pixels": [
+        "10:340",
+        0
+      ],
+      "vae": [
+        "10:331",
+        3
+      ]
+    },
+    "class_type": "VAEEncode",
+    "_meta": {
+      "title": "VAE编码"
+    }
+  },
+  "10:325": {
+    "inputs": {
+      "model_name": "bbox/hand_yolov8s.pt"
+    },
+    "class_type": "UltralyticsDetectorProvider",
+    "_meta": {
+      "title": "检测加载器"
+    }
+  },
+  "10:751": {
+    "inputs": {
+      "images": [
+        "10:330",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "10:752": {
+    "inputs": {
+      "images": [
+        "10:340",
+        1
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "10:330": {
+    "inputs": {
+      "mask": [
+        "10:340",
+        3
+      ]
+    },
+    "class_type": "MaskToImage",
+    "_meta": {
+      "title": "遮罩到图像"
+    }
+  },
+  "10:340": {
+    "inputs": {
+      "guide_size": 512,
+      "guide_size_for": true,
+      "max_size": 1024,
+      "seed": 89334889386894,
+      "steps": 16,
+      "cfg": 3,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "denoise": 0.5,
+      "feather": 20,
+      "noise_mask": true,
+      "force_inpaint": true,
+      "bbox_threshold": 0.5,
+      "bbox_dilation": 10,
+      "bbox_crop_factor": 3,
+      "sam_detection_hint": "center-1",
+      "sam_dilation": 0,
+      "sam_threshold": 0.93,
+      "sam_bbox_expansion": 0,
+      "sam_mask_hint_threshold": 0.7,
+      "sam_mask_hint_use_negative": "False",
+      "drop_size": 10,
+      "refiner_ratio": 0.2,
+      "cycle": 1,
+      "inpaint_model": false,
+      "noise_mask_feather": 20,
+      "tiled_encode": false,
+      "tiled_decode": false,
+      "image": [
+        "20:758",
+        0
+      ],
+      "detailer_pipe": [
+        "10:327",
+        0
+      ]
+    },
+    "class_type": "FaceDetailerPipe",
+    "_meta": {
+      "title": "面部细化(节点束)"
+    }
+  },
+  "10:753": {
+    "inputs": {
+      "images": [
+        "10:340",
+        2
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "10:750": {
+    "inputs": {
+      "images": [
+        "10:340",
+        5
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "21:274": {
+    "inputs": {
+      "upscale_model": [
+        "21:268",
+        0
+      ],
+      "image": [
+        "21:298",
+        0
+      ]
+    },
+    "class_type": "ImageUpscaleWithModel",
+    "_meta": {
+      "title": "图像通过模型放大"
+    }
+  },
+  "21:268": {
+    "inputs": {
+      "model_name": "4x-UltraSharp.pth"
+    },
+    "class_type": "UpscaleModelLoader",
+    "_meta": {
+      "title": "放大模型加载器"
+    }
+  },
+  "21:277": {
+    "inputs": {
+      "value": [
+        "21:275",
+        0
+      ]
+    },
+    "class_type": "ImpactConvertDataType",
+    "_meta": {
+      "title": "ImpactConvertDataType"
+    }
+  },
+  "21:279": {
+    "inputs": {
+      "value": [
+        "21:276",
+        0
+      ]
+    },
+    "class_type": "ImpactConvertDataType",
+    "_meta": {
+      "title": "ImpactConvertDataType"
+    }
+  },
+  "21:298": {
+    "inputs": {
+      "upscale_method": "nearest-exact",
+      "scale_by": 1,
+      "image": [
+        "10:340",
+        0
+      ]
+    },
+    "class_type": "ImageScaleBy",
+    "_meta": {
+      "title": "图像按系数缩放"
+    }
+  },
+  "21:270": {
+    "inputs": {
+      "basic_pipe": [
+        "10:331",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "21:278": {
+    "inputs": {
+      "upscale_method": "bicubic",
+      "width": [
+        "21:275",
+        0
+      ],
+      "height": [
+        "21:276",
+        0
+      ],
+      "crop": "disabled",
+      "image": [
+        "21:274",
+        0
+      ]
+    },
+    "class_type": "ImageScale",
+    "_meta": {
+      "title": "图像缩放"
+    }
+  },
+  "21:280": {
+    "inputs": {
+      "pixels": [
+        "21:278",
+        0
+      ],
+      "vae": [
+        "21:270",
+        3
+      ]
+    },
+    "class_type": "VAEEncode",
+    "_meta": {
+      "title": "VAE编码"
+    }
+  },
+  "21:764": {
+    "inputs": {
+      "string_a": [
+        "21:277",
+        0
+      ],
+      "string_b": [
+        "21:279",
+        0
+      ],
+      "delimiter": "x"
+    },
+    "class_type": "StringConcatenate",
+    "_meta": {
+      "title": "字符串连锁"
+    }
+  },
+  "21:275": {
+    "inputs": {
+      "expression": "a*b.width",
+      "a": [
+        "21:765",
+        0
+      ],
+      "b": [
+        "21:298",
+        0
+      ]
+    },
+    "class_type": "MathExpression|pysssss",
+    "_meta": {
+      "title": "数学表达式"
+    }
+  },
+  "21:276": {
+    "inputs": {
+      "expression": "a*b.height",
+      "a": [
+        "21:765",
+        0
+      ],
+      "b": [
+        "21:298",
+        0
+      ]
+    },
+    "class_type": "MathExpression|pysssss",
+    "_meta": {
+      "title": "数学表达式"
+    }
+  },
+  "21:765": {
+    "inputs": {
+      "value": 1.5
+    },
+    "class_type": "PrimitiveFloat",
+    "_meta": {
+      "title": "Upscale ratio"
+    }
+  },
+  "12:320": {
+    "inputs": {
+      "basic_pipe": [
+        "12:315",
+        0
+      ],
+      "positive": [
+        "12:316",
+        0
+      ],
+      "negative": [
+        "12:316",
+        1
+      ]
+    },
+    "class_type": "EditBasicPipe",
+    "_meta": {
+      "title": "编辑基础束"
+    }
+  },
+  "12:316": {
+    "inputs": {
+      "strength": 1.0000000000000002,
+      "start_percent": 0,
+      "end_percent": 1,
+      "positive": [
+        "12:315",
+        4
+      ],
+      "negative": [
+        "12:315",
+        5
+      ],
+      "control_net": [
+        "12:321",
+        0
+      ],
+      "image": [
+        "12:318",
+        0
+      ]
+    },
+    "class_type": "ControlNetApplyAdvanced",
+    "_meta": {
+      "title": "ControlNet应用（旧版高级）"
+    }
+  },
+  "12:315": {
+    "inputs": {
+      "basic_pipe": [
+        "38:1045",
+        0
+      ]
+    },
+    "class_type": "FromBasicPipe_v2",
+    "_meta": {
+      "title": "从基础束v2"
+    }
+  },
+  "12:313": {
+    "inputs": {
+      "samples": [
+        "12:314",
+        1
+      ],
+      "vae": [
+        "12:314",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "12:321": {
+    "inputs": {
+      "control_net_name": "controlnetxlCNXL_windsingaiTile10w.safetensors"
+    },
+    "class_type": "ControlNetLoader",
+    "_meta": {
+      "title": "ControlNet加载器"
+    }
+  },
+  "12:318": {
+    "inputs": {
+      "pyrUp_iters": 3,
+      "resolution": 512,
+      "image": [
+        "21:278",
+        0
+      ]
+    },
+    "class_type": "TilePreprocessor",
+    "_meta": {
+      "title": "Tile平铺预处理器"
+    }
+  },
+  "12:314": {
+    "inputs": {
+      "seed": 189547301738153,
+      "steps": 20,
+      "cfg": 3,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "karras",
+      "denoise": 0.4,
+      "basic_pipe": [
+        "12:320",
+        0
+      ],
+      "latent_image": [
+        "21:280",
+        0
+      ]
+    },
+    "class_type": "ImpactKSamplerBasicPipe",
+    "_meta": {
+      "title": "K采样器(节点束)"
+    }
+  }
+}

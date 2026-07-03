@@ -1,0 +1,55 @@
+pack: core
+priority: 90
+category: diagnosis
+entries:
+  - key: blurry
+    title: Blurry / Low Detail
+    title_zh: 图像发糊 / 细节不足
+    aliases: [blurry, blur, soft, low detail, not sharp, 模糊, 发糊, 糊, 细节不足, 不清晰]
+    targets: [sampler.steps, sampler.sampler_name, positive_prompt.text, negative_prompt.text]
+    goals: [sharper, more_detail, less_blurry]
+    capabilities: [image_quality_diagnosis]
+    description: Blurry images are often related to sampling budget, sampler choice, prompt quality, resolution, or weak source conditioning.
+    description_zh: 图像发糊通常和采样步数、采样器、提示词质量、分辨率或输入条件过弱有关。
+    recommendations:
+      - target: sampler.steps
+        action: increase
+        priority: 1
+        risk: low
+      - target: positive_prompt.text
+        action: strengthen_quality_terms
+        priority: 2
+        risk: very_low
+      - target: sampler.sampler_name
+        action: prefer_quality_sampler
+        priority: 3
+        risk: medium
+    risk: 0.25
+    cost: 0.35
+    confidence: 0.82
+
+  - key: slow
+    title: Too Slow
+    title_zh: 生成太慢
+    aliases: [slow, too slow, faster, speed up, 慢, 太慢, 加速, 快一点]
+    targets: [sampler.steps, latent_source.width, latent_source.height]
+    goals: [faster, lower_cost]
+    capabilities: [speed_diagnosis]
+    description: Slow generation is usually related to resolution, steps, heavy custom nodes, ControlNet, upscalers, or model size.
+    description_zh: 生成慢通常和分辨率、采样步数、重型自定义节点、ControlNet、放大器或模型体积有关。
+    recommendations:
+      - target: sampler.steps
+        action: decrease
+        priority: 1
+        risk: low
+      - target: latent_source.width
+        action: reduce_if_preview
+        priority: 2
+        risk: medium
+      - target: latent_source.height
+        action: reduce_if_preview
+        priority: 2
+        risk: medium
+    risk: 0.22
+    cost: 0.15
+    confidence: 0.80

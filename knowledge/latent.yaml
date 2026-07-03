@@ -1,0 +1,27 @@
+pack: core
+priority: 75
+category: latent
+entries:
+  - key: size
+    title: Latent Size
+    title_zh: 生成尺寸
+    aliases: [size, width, height, resolution, latent size, 尺寸, 分辨率, 宽度, 高度]
+    targets: [latent_source.width, latent_source.height]
+    goals: [larger_image, higher_resolution, faster]
+    capabilities: [resolution_control]
+    description: Larger latent size increases visible detail capacity but costs more VRAM/time and may destabilize weak workflows.
+    description_zh: 更大的生成尺寸能容纳更多细节，但会明显增加显存和耗时，也可能让不稳定流程更容易出问题。
+    recommendations:
+      - target: latent_source.width
+        action: set
+        when_goal: set_size
+        value_hint: requested_width
+        risk: low
+      - target: latent_source.height
+        action: set
+        when_goal: set_size
+        value_hint: requested_height
+        risk: low
+    risk: 0.25
+    cost: 0.60
+    confidence: 0.88

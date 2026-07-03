@@ -1,0 +1,23 @@
+pack: core
+priority: 70
+category: style
+entries:
+  - key: anime
+    title: Anime Style
+    title_zh: 动漫风格
+    aliases: [anime, animation, manga, toon, 动漫, 二次元, 漫画风]
+    targets: [positive_prompt.text]
+    goals: [anime_style]
+    capabilities: [style_control]
+    description: First try prompt-level style control. LoRA/model changes are stronger but should remain review-gated.
+    description_zh: 动漫风应先尝试提示词层面的风格控制；LoRA 或模型切换更强，但应放在需要人工确认的后续阶段。
+    recommendations:
+      - target: positive_prompt.text
+        action: append_style_phrase
+        value_hint: anime style, clean line art, cel shading, vibrant colors
+        risk: very_low
+    constraints:
+      - Do not auto-add LoRA in v13; only provide evidence for later modules.
+    risk: 0.15
+    cost: 0.08
+    confidence: 0.76

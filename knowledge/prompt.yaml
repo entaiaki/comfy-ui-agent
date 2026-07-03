@@ -1,0 +1,46 @@
+pack: core
+priority: 85
+category: prompt
+entries:
+  - key: positive_text
+    title: Positive Prompt
+    title_zh: 正向提示词
+    aliases: [positive prompt, prompt, text, 正向提示词, 提示词, 动漫风, anime, style]
+    targets: [positive_prompt.text]
+    goals: [anime_style, realistic_style, more_prompt_adherence, composition_change]
+    capabilities: [style_control, prompt_control]
+    description: Prompt text is the lowest-risk first place to express style, subject, composition, and quality requirements.
+    description_zh: 提示词是表达风格、主体、构图和质量要求的最低风险入口；在自动加 LoRA 之前应优先尝试提示词层面的修改。
+    recommendations:
+      - target: positive_prompt.text
+        action: append_style_phrase
+        when_goal: anime_style
+        value_hint: anime style, clean line art, vibrant colors
+        risk: very_low
+      - target: positive_prompt.text
+        action: strengthen_quality_terms
+        when_goal: sharper
+        value_hint: sharp details, clean focus, high detail
+        risk: very_low
+    risk: 0.12
+    cost: 0.08
+    confidence: 0.84
+
+  - key: negative_text
+    title: Negative Prompt
+    title_zh: 反向提示词
+    aliases: [negative prompt, negative, 反向提示词, 负面提示词, blurry, low quality, artifact]
+    targets: [negative_prompt.text]
+    goals: [less_blurry, fewer_artifacts, cleaner]
+    capabilities: [artifact_suppression]
+    description: Negative prompt can suppress common defects, but overloading it is less reliable than fixing model/sampler/prompt structure.
+    description_zh: 反向提示词能压制常见缺陷，但堆太多并不稳定；严重问题仍应检查模型、采样器和正向提示词结构。
+    recommendations:
+      - target: negative_prompt.text
+        action: append_quality_negatives
+        when_goal: cleaner
+        value_hint: blurry, low quality, artifacts, deformed
+        risk: very_low
+    risk: 0.10
+    cost: 0.05
+    confidence: 0.72

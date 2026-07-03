@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "local_flux_image": {
+      "command": "python",
+      "args": [
+        "E:\\AI\\ComfyUI-aki-v1.4\\ComfyUI-aki-v1.4\\my_workflows\\qwenpaw_flux_image_mcp.py"
+      ]
+    }
+  }
+}

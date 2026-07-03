@@ -1,0 +1,13 @@
+# Bridge container (does not include ComfyUI)
+# Usage: docker build -t local-image-bridge -f Dockerfile.bridge .
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# no external deps; all stdlib. Keep this for future extension.
+COPY . /app
+
+EXPOSE 7861
+
+CMD ["python", "local_image_bridge_v03.py", "--host", "0.0.0.0", "--port", "7861", "--comfyui-server", "http://host.docker.internal:8186", "--workflow", "flux_kontext_txt2img_api_workflow.json", "--out-dir", "generated_outputs", "--workers", "2"]
